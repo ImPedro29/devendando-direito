@@ -24,6 +24,12 @@ a {
   text-decoration: none;
 }
 
+input {
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: Cambria, Georgia, serif;
+  color: #8a8888;
+}
 input[type="text"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -69,7 +75,8 @@ header ul.menu {
   flex-direction: row;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 80px;
 }
 
 header ul.menu li {
@@ -116,13 +123,18 @@ header li a:hover {
   align-items: flex-end;
   width: 650px;
   height: 35px;
+  padding: 5px;
+  margin-left: 80px;
 }
 
 .busca button {
   height: 35px;
-  background: orange;
-  border: 1px solid orange;
+  background: #f07c00;
+  border: 1px solid #f07c00;
   border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .busca img {
@@ -165,11 +177,12 @@ header li a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-top: 98px;
+  margin-top: 96px;
   width: 90%;
   margin-left: 70px;
   margin-right: 70px;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
+  border-radius: 4px;
 
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -239,7 +252,7 @@ header li a:hover {
   margin-bottom: 20px;
 }
 .topico {
-  background: #d6d6d6;
+  background: #eeeeee;
   max-width: max-content;
   max-height: max-content;
   margin-top: 25px;
@@ -249,23 +262,25 @@ header li a:hover {
 }
 .topico li a {
   font-family: Cambria, Georgia, serif;
-  font-size: 25px;
+  font-size: 20px;
   color: black;
 }
 .container-2 {
   margin-top: 20px;
-  margin-left: 100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .title-sec {
-  font-size: 30px;
+  font-size: 27px;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 8px;
-  margin-right: 100px;
+  margin-right: 20px;
 }
 .title {
-  font-size: 30px;
+  font-size: 27px;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }

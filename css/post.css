@@ -24,6 +24,13 @@ a {
   text-decoration: none;
 }
 
+input {
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: Cambria, Georgia, serif;
+  color: #8a8888;
+}
+
 input[type="text"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -69,7 +76,8 @@ header ul.menu {
   flex-direction: row;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 80px;
 }
 
 header ul.menu li {
@@ -104,6 +112,7 @@ header li a:hover {
 
 .busca {
   margin-top: 4px;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,13 +125,17 @@ header li a:hover {
   align-items: flex-end;
   width: 650px;
   height: 35px;
+  margin-left: 80px;
 }
 
 .busca button {
   height: 35px;
-  background: orange;
-  border: 1px solid orange;
+  background: #f07c00;
+  border: 1px solid #f07c00;
   border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .busca img {
@@ -300,7 +313,7 @@ header li a:hover {
   border-radius: 3px;
   background: #fff;
   font-size: 18px;
-  margin: 0px 2px 2px 2px;
+  margin: 0px 5px 5px 5px;
   padding: 15px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -388,97 +401,20 @@ header li a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.topicos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  font-size: 25px;
-}
-
-.topicos .topico {
-  background: #fff;
-  margin: 25px 2px 2px 2px;
-  border-radius: 5px;
-  padding: 20px;
-  overflow: hidden;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
-}
-
-.topicos .topico .title {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 4px;
-  text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 200;
-}
 .texto {
   margin-left: 8px;
 }
-.topicos .topico .box-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
 
-.topicos .topico h1 span {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
-  margin-right: 80px;
-}
-
-.box li {
-  padding: 18px;
-  padding-right: 100px;
-  padding-left: 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.box li:nth-child(3) {
-  border-bottom: none;
-}
-
-.box li a {
-  text-align: start;
-  color: orange;
-  text-decoration: underline;
-}
 .comentar {
   display: flex;
   flex-direction: column;
   padding: 40px;
   background: #fff;
-  margin-left: 2px;
-  margin-right: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
   margin-top: 20px;
   border-radius: 4px;
-  margin-bottom: 2px;
+  margin-bottom: 5px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);

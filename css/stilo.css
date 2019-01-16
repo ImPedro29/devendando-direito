@@ -23,6 +23,12 @@ li {
 a {
   text-decoration: none;
 }
+input {
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: Cambria, Georgia, serif;
+  color: #8a8888;
+}
 
 input[type="text"] {
   -webkit-box-sizing: border-box;
@@ -69,7 +75,8 @@ header ul.menu {
   flex-direction: row;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 80px;
 }
 
 header ul.menu li {
@@ -104,6 +111,7 @@ header li a:hover {
 
 .busca {
   margin-top: 4px;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -116,13 +124,17 @@ header li a:hover {
   align-items: flex-end;
   width: 650px;
   height: 35px;
+  margin-left: 80px;
 }
 
 .busca button {
   height: 35px;
-  background: orange;
-  border: 1px solid orange;
+  background: #f07c00;
+  border: 1px solid #f07c00;
   border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .busca img {
@@ -166,7 +178,7 @@ header li a:hover {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-top: 98px;
-  width: 72%;
+  width: 73%;
   margin-left: 70px;
 }
 
@@ -241,8 +253,8 @@ header li a:hover {
 .inicio {
   background: #fff;
   border-radius: 3px;
-  margin-right: 2px;
-  margin-left: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -254,9 +266,11 @@ header li a:hover {
   -ms-flex-align: center;
   align-items: center;
 }
+
 .inicio img {
   margin-left: 10px;
 }
+
 .inicio li a {
   text-transform: uppercase;
   font-size: 18px;
@@ -265,7 +279,7 @@ header li a:hover {
 }
 
 .inicio .alinhar {
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 .topicos {
@@ -281,7 +295,7 @@ header li a:hover {
 
 .topicos .topico {
   background: #fff;
-  margin: 25px 2px 2px 2px;
+  margin: 25px 5px 5px 5px;
   border-radius: 5px;
   padding: 20px;
   overflow: hidden;
@@ -303,7 +317,7 @@ header li a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 4px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 200;
 }
 
@@ -311,6 +325,7 @@ header li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
 }
 
 .topicos .topico h1 span {
@@ -328,7 +343,6 @@ header li a:hover {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-right: 80px;
 }
 
 .box li {
@@ -354,7 +368,7 @@ header li a:hover {
   border-radius: 4px;
   background: #fff;
   font-size: 18px;
-  margin: 20px 2px 2px 2px;
+  margin: 20px 5px 5px 5px;
   padding: 15px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3);
@@ -365,7 +379,7 @@ header li a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 200;
 }
 
@@ -374,12 +388,15 @@ header li a:hover {
   display: -ms-flexbox;
   display: flex;
   padding-top: 8px;
+  padding-bottom: 10px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 4px;
 }
 
 .blog .posts .img {
-  height: 140px;
+  height: 120px;
   width: 120px;
+  overflow: hidden;
 }
 
 .blog .posts .img img {

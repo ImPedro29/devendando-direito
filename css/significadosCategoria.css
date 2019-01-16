@@ -24,6 +24,13 @@ a {
   text-decoration: none;
 }
 
+input {
+  font-size: 20px;
+  padding-left: 10px;
+  font-family: Cambria, Georgia, serif;
+  color: #8a8888;
+}
+
 input[type="text"] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -69,7 +76,8 @@ header ul.menu {
   flex-direction: row;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 80px;
 }
 
 header ul.menu li {
@@ -116,13 +124,18 @@ header li a:hover {
   align-items: flex-end;
   width: 650px;
   height: 35px;
+  padding: 5px;
+  margin-left: 80px;
 }
 
 .busca button {
   height: 35px;
-  background: orange;
-  border: 1px solid orange;
+  background: #f07c00;
+  border: 1px solid #f07c00;
   border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .busca img {
@@ -243,7 +256,7 @@ header li a:hover {
   margin-top: 98px;
   border-radius: 3px;
   margin-right: 120px;
-  margin-left: 72px;
+  margin-left: 75px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -266,7 +279,7 @@ header li a:hover {
 }
 
 .inicio .alinhar {
-  margin-top: 6px;
+  margin-top: 3px;
   display: flex;
 }
 
@@ -283,7 +296,7 @@ header li a:hover {
 
 .topicos .topico {
   background: #fff;
-  margin: 25px 2px 2px 2px;
+  margin: 25px 5px 5px 5px;
   border-radius: 5px;
   padding: 20px;
   overflow: hidden;
@@ -305,7 +318,7 @@ header li a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 4px;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 200;
 }
 
@@ -313,6 +326,7 @@ header li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
 }
 
 .topicos .topico h1 span {
@@ -330,7 +344,6 @@ header li a:hover {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-right: 80px;
 }
 
 .box li {
