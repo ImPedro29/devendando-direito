@@ -185,7 +185,7 @@ header li a:hover {
 
 .aside {
   margin-top: 112px;
-  margin-left: 32px;
+  margin-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -427,10 +427,9 @@ header li a:hover {
   display: flex;
   flex-direction: column;
   padding: 4px;
-  background: #fff;
   margin-top: 40px;
   margin-left: 2px;
-  margin-right: 2px;
+  margin-right: 5px;
 }
 .title {
   padding-bottom: 4px;
