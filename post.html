@@ -6,24 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Desvendando Direito 2</title>
     <link rel="stylesheet" href="css/post.css" />
+    <script src="Jquery/jquery.js"></script>
   </head>
   <body>
     <header>
-      <img
-        src="img/logo.svg"
-        alt=""
-        style="height:70px;width:300px; margin:0px 20px 0px 5%"
-      />
-
+      <div class="logo">
+        <a href="NewHome.html"
+          ><img src="img/logo.svg" alt="" style="height:70px;width:300px"
+        /></a>
+      </div>
       <div class="flex-contanier">
         <nav>
           <ul class="menu">
-            <li><a href="#">SIGNIFICADOS</a></li>
-            <li><a href="#">PUBLICAÇÕES</a></li>
+            <li><a href="TodasAsCategorias.html">SIGNIFICADOS</a></li>
+            <li><a href="publicacoes.html">PUBLICAÇÕES</a></li>
             <li><a href="#">QUEM SOMOS</a></li>
           </ul>
         </nav>
-
         <div class="busca">
           <input
             type="text"
@@ -36,7 +35,6 @@
       <div class="container">
         <div class="blog">
           <div class="inicio">
-            <img src="icons/open-book.svg" style="height:20px" />
             <div class="alinhar">
               <li><a href="">&nbsp;SIGNIFICADOS ></a></li>
               <li><a href="">TRABALHO</a></li>
@@ -134,11 +132,15 @@
           </div>
         </div>
 
-        <div class="propaganda">
-          <div class="title">PROPAGANDA</div>
+        <div class="propaganda" id="propaganda">
+          <div class="title" id="props">PROPAGANDA</div>
           <div class="img-video"></div>
         </div>
       </div>
+    </div>
+    <div class="propaganda-celular" id="propaganda">
+      <div class="title" id="props">PROPAGANDA</div>
+      <div class="img-video"></div>
     </div>
     <footer>
       <div
@@ -160,5 +162,6 @@
       <br />
       <p style="font-size:10px">BY MY PROJECT</p>
     </footer>
+    <script src="javascript/efeito_scroll.js"></script>
   </body>
 </html>

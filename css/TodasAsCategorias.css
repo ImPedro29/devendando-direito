@@ -86,7 +86,7 @@ header ul.menu li {
   padding-right: 6px;
 }
 
-header ul.menu li:nth-child(3) {
+header ul.menu li:last-child {
   border: none;
 }
 
@@ -97,6 +97,9 @@ header li a {
 
 header li a:hover {
   color: rgba(0, 0, 0, 0.5);
+}
+header .logo {
+  margin: 0px 20px 0px 5%;
 }
 
 .menu-btn {
@@ -177,12 +180,8 @@ header li a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-top: 96px;
-  width: 90%;
-  margin-left: 70px;
-  margin-right: 70px;
-  margin-bottom: 5px;
-  border-radius: 4px;
+  width: 88%;
+  margin: 98px auto;
 
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -300,37 +299,55 @@ footer {
 
 @media screen and (max-width: 1024px) {
   header {
-    max-height: 25px;
+    max-height: max-content;
     background: orange;
-  }
 
-  .title-sec {
-    margin-right: 40px;
+    z-index: 1;
   }
   header ul.menu {
-    margin: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
+    justify-content: center;
   }
   header ul.menu li {
     border: none;
   }
+
   header ul.menu li a {
-    font-size: 18px;
+    font-size: 15px;
     color: white;
   }
   header ul.menu li a a :hover {
     color: black;
   }
-  header img {
+  header .logo {
     display: none;
   }
+
   header .busca {
-    display: none;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+  input[type="text"] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 35px;
+    background: #fff;
+    border-radius: 4px;
+    border: 1px solid #ccc;
   }
   .inicio {
-    margin-top: 30px;
+    margin-top: 75px;
   }
   .principal {
     display: -webkit-box;
@@ -347,11 +364,17 @@ footer {
     display: flex;
     margin-top: 100px;
     margin: 0 auto;
+    width: 94%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-bottom: 5px;
   }
+  .flex-contanier {
+    width: 100%;
+  }
+
   .categorias {
     display: flex;
     flex-wrap: wrap;
@@ -364,10 +387,4 @@ footer {
   .container-2 {
     margin: 0px;
   }
-
-  header ul.menu li a {
-    font-size: 14px;
-    color: white;
-  }
 }
-/*# sourceMappingURL=post.css.map */
