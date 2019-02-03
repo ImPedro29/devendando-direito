@@ -1,15 +1,4 @@
 @charset "UTF-8";
-@font-face {
-  font-family: "Lato";
-  src: url("698242188-Lato-Bla.eot");
-  src: url("698242188-Lato-Bla.eot?#iefix") format("embedded-opentype"),
-    url("698242188-Lato-Bla.svg#Lato Black") format("svg"),
-    url("698242188-Lato-Bla.woff") format("woff"),
-    url("698242188-Lato-Bla.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -23,12 +12,12 @@ li {
 a {
   text-decoration: none;
 }
-
 input {
   font-size: 20px;
   padding-left: 10px;
-  font-family: Cambria, Georgia, serif;
+  font-family: Cambria, Georgia, serif !important;
   color: #8a8888;
+  letter-spacing: 0.08em;
 }
 
 input[type="text"] {
@@ -44,7 +33,8 @@ input[type="text"] {
 
 body {
   background: #d6d6d6;
-  font-family: "Lato Regular", Arial;
+  font-family: lato, sans-serif;
+  letter-spacing: 0.07em;
 }
 
 button {
@@ -61,9 +51,10 @@ header {
   height: 80px;
   padding: 10px;
   position: fixed;
-  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
 header ul.menu {
@@ -80,23 +71,25 @@ header ul.menu {
   margin-right: 80px;
 }
 
+header .logo {
+  margin: 0px 20px 0px 5%;
+}
+
 header ul.menu li {
   border-right: 1.5px solid rgba(0, 0, 0, 0.4);
   margin-right: 4px;
   margin-left: 4px;
   padding-right: 6px;
+  font-family: lato, sans-serif;
 }
 
-header ul.menu li:last-child {
+header ul.menu li:nth-child(3) {
   border: none;
 }
 
 header li a {
-  color: black;
   font-size: 20px;
-}
-header .logo {
-  margin: 0px 20px 0px 5%;
+  color: #3c3e40 !important;
 }
 
 header li a:hover {
@@ -129,6 +122,7 @@ header li a:hover {
   width: 650px;
   height: 35px;
   margin-left: 80px;
+  font-family: "Cambria";
 }
 
 .busca button {
@@ -181,9 +175,11 @@ header li a:hover {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  padding: 0;
+  margin: 0;
   margin-top: 98px;
   width: 68%;
-  margin-left: 70px;
+  margin-left: 6%;
 }
 
 .aside {
@@ -191,7 +187,7 @@ header li a:hover {
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   margin-top: 110px;
-  margin-left: 25px;
+  margin-left: 2%;
   text-align: center;
   background: #fff;
   display: -webkit-box;
@@ -223,13 +219,25 @@ header li a:hover {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+article {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0 0.3em;
+  font-size: 0.8em;
+  color: #464646 !important;
+}
+
+.blog-2 article {
+  font-size: 1em;
+}
+
 .aside .links {
   padding: 15px;
 }
 
 .aside li {
   text-align: justify;
-  font-family: "Lato Regular", Arial;
+  font-family: lato, sans-serif;
 }
 
 .aside li a {
@@ -262,7 +270,7 @@ header li a:hover {
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
-  padding: 20px 0px 20px 20px;
+  padding: 20px 0px 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,28 +278,35 @@ header li a:hover {
   -ms-flex-align: center;
   align-items: center;
 }
+
 .inicio img {
   margin-left: 10px;
 }
+
 .inicio li a {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 200;
-  color: black;
+  color: #6d6a6a !important;
+  font-family: "Arial", sans-serif;
+}
+
+.inicio li {
+  float: left;
 }
 
 .inicio .alinhar {
-  margin-top: 6px;
-  display: flex;
+  margin-top: 4px;
 }
-
+.mini-logo {
+  display: none;
+}
 .blog {
   border-radius: 4px;
   background: #fff;
   font-size: 18px;
   margin: 30px 5px 5px 5px;
   padding: 15px;
-  padding-bottom: 0px;
   -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -305,11 +320,13 @@ header li a:hover {
 }
 .blog .title {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding-bottom: 4px;
   text-transform: uppercase;
   font-size: 27px;
   font-weight: 200;
-  margin-bottom: 20px;
+  letter-spacing: 0.08em;
+  color: #232323;
+  margin-left: 4px;
 }
 
 .blog .posts {
@@ -320,12 +337,13 @@ header li a:hover {
 }
 
 .blog .posts .img {
-  height: 136px;
   width: 120px;
+  height: 120px;
+  overflow: hidden;
 }
 
 .blog .posts .img img {
-  height: 120px;
+  height: 140px;
   width: 120px;
 }
 
@@ -342,7 +360,7 @@ header li a:hover {
 }
 
 .blog .conteudo {
-  font-family: "Lato Regular", Arial;
+  font-family: lato, sans-serif;
   margin-left: 8px;
   grid-area: conteudo;
   padding: 2px;
@@ -358,8 +376,13 @@ header li a:hover {
   box-sizing: border-box;
 }
 
-.blog .conteudo h1 {
-  background: black;
+.blog .conteudo h3 {
+  font-weight: normal;
+  font-size: 1.6em;
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.1em;
+  color: #464646;
 }
 
 /* blog 2 */
@@ -414,7 +437,7 @@ header li a:hover {
 }
 
 .blog-2 .conteudo {
-  font-family: "Lato Regular", Arial;
+  font-family: lato, sans-serif;
   margin-left: 8px;
   grid-area: conteudo;
   padding: 2px;
@@ -441,10 +464,12 @@ header li a:hover {
   padding: 2px 15px;
   background: #eeee;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 4px;
   letter-spacing: 1px;
-
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px #00000066;
 }
 .conteudo span a {
   color: black;
@@ -453,7 +478,7 @@ header li a:hover {
 }
 
 footer {
-  width: 90%;
+  width: 88%;
   margin: auto;
   text-align: center;
   padding: 4px;
@@ -468,7 +493,6 @@ h1 {
 @media screen and (max-width: 1024px) {
   header {
     max-height: max-content;
-    background: orange;
     overflow: hidden;
     z-index: 1;
   }
@@ -486,8 +510,7 @@ h1 {
   }
 
   header ul.menu li a {
-    font-size: 15px;
-    color: white;
+    font-size: 13px;
   }
   header ul.menu li a a :hover {
     color: black;
@@ -599,8 +622,25 @@ h1 {
   .box:nth-child(3) {
     display: none;
   }
+  header {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
   header ul.menu li a {
-    font-size: 14px;
+    font-size: 13px;
     color: white;
+  }
+  .mini-logo {
+    display: block;
+    align-self: center;
+    overflow: hidden;
+  }
+  .mini-logo img {
+    width: 50px;
+    height: 50px;
+  }
+  .container {
+    margin-top: 55px;
   }
 }
