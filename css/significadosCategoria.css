@@ -33,7 +33,11 @@ input[type="text"] {
 
 body {
   background: #d6d6d6;
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   letter-spacing: 0.07em;
 }
 
@@ -80,7 +84,11 @@ header ul.menu li {
   margin-right: 4px;
   margin-left: 4px;
   padding-right: 6px;
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
 }
 
 header ul.menu li:nth-child(3) {
@@ -123,9 +131,12 @@ header li a:hover {
   height: 35px;
   margin-left: 80px;
   font-family: "Cambria";
+<<<<<<< HEAD
 }
 .mini-logo {
   display: none;
+=======
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
 }
 .busca button {
   height: 35px;
@@ -280,7 +291,11 @@ header li a:hover {
   font-family: "Arial", sans-serif;
 }
 
+<<<<<<< HEAD
 .inicio li {
+=======
+.inicio li{
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   float: left;
 }
 

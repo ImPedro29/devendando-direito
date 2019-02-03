@@ -34,7 +34,11 @@ input[type="text"] {
 
 body {
   background: #d6d6d6;
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   letter-spacing: 0.07em;
 }
 
@@ -81,7 +85,11 @@ header ul.menu li {
   margin-right: 4px;
   margin-left: 4px;
   padding-right: 6px;
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
 }
 
 header ul.menu li:nth-child(3) {
@@ -93,9 +101,13 @@ header li a {
   color: #3c3e40;
 }
 
+<<<<<<< HEAD
 header li a:hover {
   color: #616365;
 }
+=======
+header li a:hover {color: #616365;}
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
 
 .menu-btn {
   display: -webkit-box;
@@ -260,7 +272,11 @@ header li a:hover {
 
 .aside li {
   text-align: justify;
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
 }
 
 .aside li a {
@@ -295,17 +311,25 @@ header li a:hover {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   font-size: 1em;
   /* font-weight: 500; */
   letter-spacing: 0;
   color: #6d6a6a !important;
 }
 
+<<<<<<< HEAD
 .inicio li a {
   text-transform: uppercase;
   color: #6d6a6a !important;
 }
+=======
+.inicio li a {text-transform: uppercase;color: #6d6a6a !important;}
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
 
 .inicio .alinhar {
   display: flex;
@@ -313,7 +337,11 @@ header li a:hover {
   margin-left: 10px;
 }
 
+<<<<<<< HEAD
 .alinhar a img {
+=======
+.alinhar a img{
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   height: 20px;
   margin: 1px 8px;
 }
@@ -379,7 +407,11 @@ header li a:hover {
 }
 
 .blog .conteudo {
+<<<<<<< HEAD
   font-family: "Lato", sans-serif;
+=======
+  font-family: 'Lato', sans-serif;
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   text-align: justify;
   padding: 20px;
   display: -webkit-box;
@@ -431,7 +463,11 @@ header li a:hover {
   box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
+<<<<<<< HEAD
 .submit-comentario {
+=======
+.submit-comentario{
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   width: 7em;
   height: 1.6em;
   color: #f07c00 !important;
@@ -447,7 +483,11 @@ header li a:hover {
   outline: none;
 }
 
+<<<<<<< HEAD
 .submit-comentario:hover {
+=======
+.submit-comentario:hover{
+>>>>>>> b2de16df1bbec235e43c9831aacb399be98a8d0e
   color: #f1830d;
   text-decoration: underline;
 }
