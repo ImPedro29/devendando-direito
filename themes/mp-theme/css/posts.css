@@ -212,4 +212,7 @@ fieldset {
     height: 3rem;
     width: 3rem;
   }
+  header .menu ul li {
+    padding: 0;
+  }
 }
