@@ -165,7 +165,7 @@ fieldset {
   header ul.menu {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
   }
   header ul.menu li {
