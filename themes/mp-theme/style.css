@@ -549,7 +549,7 @@ header li a:hover {
     margin-bottom: 80px !important;
   }
   header .menu ul li {
-    padding: 0.2rem;
+    padding: 0;
   }
 }
 
