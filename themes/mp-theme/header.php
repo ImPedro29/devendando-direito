@@ -21,7 +21,7 @@
             <a href="/"><img src="/wp-content/themes/mp-theme/img/logo.svg" alt="" style="height:70px;width:300px;" /></a>
         </div>
 
-        <div class="flex-container width-menu">
+        <div class="flex-container" style="width:100%;">
             <ul class="menu">
                 <li><a href="#">SIGNIFICADOS</a></li>
                 <li><a href="#">PUBLICAÇÕES</a></li>
