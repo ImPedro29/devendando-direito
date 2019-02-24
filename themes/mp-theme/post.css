@@ -68,8 +68,8 @@ article{
 }
 
 .conteudo article {
-    text-align: inherit !important;
-    text-justify: inherit !important;
+    text-align: initial !important;
+    text-justify: initial !important;
 }
 
 .blog .cbox article p{
