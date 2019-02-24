@@ -167,6 +167,7 @@ fieldset {
     justify-content: space-between;
     width: 100vw;
     margin: 0 auto;
+    padding: 1rem;
   }
   header ul.menu li {
     border: none;
