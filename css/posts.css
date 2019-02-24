@@ -1,0 +1,208 @@
+.propaganda-mobile {
+  display: none;
+}
+
+.inicio {
+  font-size: 0.9em;
+  color: #2e2e2e;
+  padding: 10px 0;
+}
+
+.blog .posts {
+  display: flex;
+  padding-top: 8px;
+}
+
+.conteudo {
+  padding: 0 35px !important;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.posts article {
+  margin-top: 20px;
+}
+
+.propaganda {
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  min-height: max-content;
+}
+
+.propaganda .title {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #2d2d2d;
+}
+
+.conteudo .conteudo {
+  min-height: 60px;
+  margin-top: 50px;
+  margin-left: 2px;
+  margin-bottom: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dtitle {
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 20px !important;
+  font-weight: 100;
+  margin-bottom: 4px;
+  border: none;
+  text-transform: capitalize;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: Cambria, Georgia, serif;
+}
+
+.description .texto {
+  padding: 0 10px;
+}
+
+.comentar {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background: #fff;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.date {
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.title {
+  padding-bottom: 4px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  background: #fff;
+  margin-top: 40px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.comentar ::placeholder {
+  text-align: start;
+  padding-left: 3px;
+}
+
+#comentario {
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  margin: 8px 0;
+  justify-content: space-between;
+}
+.input input {
+  width: 49%;
+
+  margin: 8px 0;
+}
+.commentsubmit {
+  float: right;
+  background: #c4c4c4;
+  border-radius: 6px;
+  border: none;
+  margin: 4px;
+  padding: 4px;
+  margin-top: 8px;
+}
+fieldset {
+  border: none;
+}
+.principal {
+  display: flex;
+}
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 0;
+  }
+  .comentar {
+    padding: 8px;
+  }
+  .blog {
+    padding: 0;
+  }
+  .cbox {
+    margin-top: 2px;
+  }
+  header ul.menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  header ul.menu li {
+    border: none;
+  }
+
+  header ul.menu li a {
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+  }
+  form.busca {
+    display: flex;
+    width: 96vw;
+    justify-content: space-between;
+  }
+  .aside {
+    float: left;
+    width: 94vw;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .propaganda {
+    position: absolute;
+    bottom: 0;
+    min-height: max-content;
+    width: 100vw;
+    position: fixed;
+    margin-bottom: 2px;
+  }
+  .propaganda .title {
+    font-size: 0.8rem;
+    padding: 0.1rem;
+  }
+  div .blog {
+    padding: 10px;
+  }
+  .conteudo {
+    padding: 0 !important;
+  }
+  .inicio {
+    font-size: 0.6rem;
+  }
+}
