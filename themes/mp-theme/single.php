@@ -15,7 +15,8 @@
                 <div class="posts">
                     <div class="conteudo">
                         <div class="title"><?php the_title(); ?>
-                    <div class="icons"><i class="fab fa-facebook-f"></i></div></div>
+                    <div class="icons"><i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i></div></div>
                         <h1 style="display: none;"><?php the_title(); ?></h1>
                         <article>
                             <?php the_content(); ?>
