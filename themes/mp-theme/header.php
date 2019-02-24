@@ -23,12 +23,12 @@
 
         <div class="flex-container" style="width:100%;">
             <ul class="menu">
-                <li><a href="#">SIGNIFICADOS</a></li>
-                <li><a href="#">PUBLICAÇÕES</a></li>
-                <li><a href="#">QUEM SOMOS</a></li>
+                <li><a href="/category/significados">SIGNIFICADOS</a></li>
+                <li><a href="/category/blog/">PUBLICAÇÕES</a></li>
+                <li><a href="/category/quem-somos">QUEM SOMOS</a></li>
             </ul>
 
-            <form action="" method="get" class="busca">
+            <form action="/" method="get" class="busca">
                 <div class="mini-logo">
                     <img src="/wp-content/themes/mp-theme/img/logo-mini.png" alt="" />
                 </div>

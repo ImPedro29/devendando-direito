@@ -12,14 +12,12 @@
             </div>
 
             <?php
-                wp_reset_query();
-                $s=get_search_query();
-                $args = array(
-                    's' =>$s
-                );
-                $the_query = new WP_Query( $args );
-                if ( $the_query->have_posts() ) {
-                    while ( $the_query->have_posts() ) {
+                global $query_string;
+                wp_parse_str( $query_string, $search_query );
+                $search = new WP_Query( $search_query );
+
+                if ( $search->have_posts() ) {
+                    while ( $search->have_posts() ) {
                         ?>
                         <div class="posts">
                             <div class="conteudo">
