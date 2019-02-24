@@ -23,14 +23,16 @@
                     while ( $the_query->have_posts() ) {
                         $the_query->the_post();
                         ?>
-                        <div class="topico cbox">
-                            <div class="conteudo">
-                                <div class="title"><?php the_title(); ?></div>
-                                <article>
-                                    <?php the_excerpt(); ?>
-                                </article>
+                        <a href="<?php the_permalink(); ?>">
+                            <div class="topico cbox">
+                                <div class="conteudo">
+                                    <div class="title"><?php the_title(); ?></div>
+                                    <article>
+                                        <?php the_excerpt(); ?>
+                                    </article>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                         <?php
                     }
                 } else {
