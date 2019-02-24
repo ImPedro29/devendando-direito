@@ -170,7 +170,7 @@ fieldset {
   }
   header ul.menu li {
     border: none;
-    padding: 0.6rem 0;
+    padding-bottom: 0.6rem;
   }
 
   header ul.menu li a {
