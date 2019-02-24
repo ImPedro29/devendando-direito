@@ -69,7 +69,7 @@ article{
 
 .conteudo article {
     text-align: inherit !important;
-    text-justify: inter-word !important;
+    text-justify: inherit !important;
 }
 
 .blog .cbox article p{
