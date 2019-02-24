@@ -62,6 +62,16 @@ article{
     padding: 0 10px;
 }
 
+.widget p {
+    display: block;
+    margin: auto !important;
+}
+
+.conteudo article {
+    text-align: inherit !important;
+    text-justify: inter-word !important;
+}
+
 .blog .cbox article p{
     display: block;
     margin-block-start: 1em  !important;
