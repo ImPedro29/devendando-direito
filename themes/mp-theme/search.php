@@ -10,7 +10,8 @@
                     <li><a href="#"> >Pesquisa</a></li>
                 </div>
             </div>
-
+        </div>
+        <div class="topicos">
             <?php
                 $s=get_search_query();
                 $args = array(
@@ -22,7 +23,7 @@
                     while ( $the_query->have_posts() ) {
                         $the_query->the_post();
                         ?>
-                        <div class="posts">
+                        <div class="topico cbox">
                             <div class="conteudo">
                                 <div class="title"><?php the_title(); ?></div>
                                 <article>
@@ -34,7 +35,7 @@
                     }
                 } else {
                     ?>
-                    <div class="posts">
+                    <div class="topico cbox">
                         <div class="conteudo">
                             <div class="title">Nada Encontrado!</div>
                             <article>
@@ -45,7 +46,6 @@
                     <?php
                 }
             ?>
-
         </div>
     </div>
     <?php get_sidebar(); ?>
