@@ -10,30 +10,34 @@
                     <li><a href="#"> >Pesquisa</a></li>
                 </div>
             </div>
-
+        </div>
+        <div class="topicos">
             <?php
-                wp_reset_query();
                 $s=get_search_query();
                 $args = array(
                     's' =>$s
                 );
+                // The Query
                 $the_query = new WP_Query( $args );
                 if ( $the_query->have_posts() ) {
                     while ( $the_query->have_posts() ) {
+                        $the_query->the_post();
                         ?>
-                        <div class="posts">
-                            <div class="conteudo">
-                                <div class="title"><?php the_title(); ?></div>
-                                <article>
-                                    <?php the_excerpt(); ?>
-                                </article>
+                        <a href="<?php the_permalink(); ?>">
+                            <div class="topico cbox">
+                                <div class="conteudo">
+                                    <div class="title"><?php the_title(); ?></div>
+                                    <article>
+                                        <?php the_excerpt(); ?>
+                                    </article>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                         <?php
                     }
                 } else {
                     ?>
-                    <div class="posts">
+                    <div class="topico cbox">
                         <div class="conteudo">
                             <div class="title">Nada Encontrado!</div>
                             <article>
@@ -44,7 +48,6 @@
                     <?php
                 }
             ?>
-
         </div>
     </div>
     <?php get_sidebar(); ?>
