@@ -522,7 +522,7 @@ header li a:hover {
   .flex-container {
     display: flex;
     flex-direction: column-reverse;
-    width: 98vw;
+    width: 100%;
     margin: auto;
     padding: 0;
   }
@@ -550,6 +550,6 @@ header li a:hover {
   }
 }
 
-p{
+p {
   margin: 0;
 }
