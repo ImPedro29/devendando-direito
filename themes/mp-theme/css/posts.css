@@ -164,11 +164,9 @@ fieldset {
   }
   header ul.menu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100vw;
     margin: 0 auto;
-    padding-right: 0.3rem;
-    padding-left: 0.3rem;
   }
   header ul.menu li {
     border: none;
