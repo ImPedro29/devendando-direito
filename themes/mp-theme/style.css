@@ -548,7 +548,8 @@ header li a:hover {
   footer {
     margin-bottom: 80px !important;
   }
-  header .menu ul li {
+
+  header ul.menu li {
     padding: 0;
   }
   .width-menu {
