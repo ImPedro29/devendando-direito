@@ -17,17 +17,20 @@
                 $search = new WP_Query( $search_query );
 
                 if ( $search->have_posts() ) {
+                    $i = 0;
                     while ( $search->have_posts() ) {
                         ?>
                         <div class="posts">
                             <div class="conteudo">
-                                <div class="title"><?php the_title(); ?></div>
+                                <div class="title"><?php $search->the_title(); ?></div>
                                 <article>
-                                    <?php the_excerpt(); ?>
+                                    <?php $search->the_excerpt(); ?>
                                 </article>
                             </div>
                         </div>
                         <?php
+                        $i++;
+                        if($i > 15) break;
                     }
                 } else {
                     ?>
