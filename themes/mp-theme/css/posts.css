@@ -151,6 +151,7 @@ fieldset {
 @media screen and (max-width: 1024px) {
   header {
     padding: 0;
+    width: 100%;
   }
   .comentar {
     padding: 8px;
@@ -164,7 +165,7 @@ fieldset {
   header ul.menu {
     display: flex;
     justify-content: space-between;
-    width: 98vw;
+    width: 98%;
     margin: auto;
   }
   header ul.menu li {
