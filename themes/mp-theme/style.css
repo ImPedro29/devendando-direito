@@ -552,9 +552,6 @@ header li a:hover {
   header ul.menu li {
     padding: 0;
   }
-  .width-menu {
-    width: 100vw;
-  }
 }
 
 p {
