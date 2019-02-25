@@ -179,7 +179,6 @@
                             }
                         ?>
                         </div>
-                     </div>
                 </div>
                 <div class="topico cbox">
                     <div class="title"><?php echo single_cat_title(); ?></div>
@@ -189,7 +188,7 @@
                         $args = array(
                             'post_type' => 'post',
                             'category_name' => $categoryName,
-                            'posts_per_page' => 100,
+                            'posts_per_page' => 20,
                             'orderby' => 'name',
                             'order' => 'ASC'
                         );
