@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +25,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
+            <state relative-caret-position="240">
+              <caret line="189" column="60" selection-start-line="189" selection-start-column="60" selection-end-line="189" selection-end-column="60" />
               <folding>
                 <element signature="e#57#11773#0#PHP" />
               </folding>
@@ -36,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -102,6 +103,7 @@
         <option value="$PROJECT_DIR$/themes/mp-theme/search.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/post.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/header.php" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/archive.php" />
       </list>
     </option>
   </component>
@@ -176,7 +178,7 @@
       <workItem from="1549078301642" duration="1269000" />
       <workItem from="1549122174312" duration="10517000" />
       <workItem from="1551034172336" duration="4000000" />
-      <workItem from="1551048770247" duration="3207000" />
+      <workItem from="1551048770247" duration="5076000" />
     </task>
     <task id="LOCAL-00001" summary="Testando Search.php 01">
       <created>1551036169441</created>
@@ -248,11 +250,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551050885521</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Arrumando header">
+      <created>1551053138263</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551053138263</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Arrumando bug das categorias">
+      <created>1551053444908</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1551053444908</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26435000" />
+    <option name="totallyTimeSpent" value="28304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="165" y="111" width="1201" height="640" extended-state="0" />
@@ -292,7 +308,9 @@
     <MESSAGE value="Testando Search.php 06" />
     <MESSAGE value="Arrumando widget para post e tirando justify" />
     <MESSAGE value="Tirando Justify article post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tirando Justify article post" />
+    <MESSAGE value="Arrumando header" />
+    <MESSAGE value="Arrumando bug das categorias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando bug das categorias" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -339,19 +357,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <folding>
-            <element signature="e#57#11773#0#PHP" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/header.php">
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+        <state relative-caret-position="240">
+          <caret line="189" column="60" selection-start-line="189" selection-start-column="60" selection-end-line="189" selection-end-column="60" />
+          <folding>
+            <element signature="e#57#11773#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
