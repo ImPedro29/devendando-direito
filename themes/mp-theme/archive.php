@@ -132,7 +132,7 @@
                         $category = get_the_category()[0];
                         $args = array(
                             'post_type' => 'post',
-                            'category' => $category->term_id,
+                            'category_name' => $category->slug,
                             'posts_per_page' => 9,
                         );
                         $query = new WP_Query( $args );
@@ -187,11 +187,10 @@
                         wp_reset_query();
                         $args = array(
                             'post_type' => 'post',
-                            'category' => $category->term_id,
-                            'posts_per_page' => 50,
+                            'category_name' => $category->slug,
+                            'posts_per_page' => 100,
                             'orderby' => 'name',
                             'order' => 'ASC'
-
                         );
                         $query = new WP_Query( $args );
                         $cont = 0;
