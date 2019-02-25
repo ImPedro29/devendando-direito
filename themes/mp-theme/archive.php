@@ -130,6 +130,7 @@
                     <div class="box-flex">
                         <?php
                         $category = get_the_category()[0];
+                        echo $category->slug;
                         $args = array(
                             'post_type' => 'post',
                             'category_name' => $category->slug,
