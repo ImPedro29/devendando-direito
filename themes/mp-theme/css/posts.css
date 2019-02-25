@@ -216,4 +216,7 @@ fieldset {
   header .menu ul li {
     padding: 3rem 0;
   }
+  .icons i {
+    margin: 0.4rem;
+  }
 }
