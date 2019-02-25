@@ -25,7 +25,7 @@
             <ul class="menu">
                 <li><a href="/category/significados">SIGNIFICADOS</a></li>
                 <li><a href="/category/blog/">PUBLICAÇÕES</a></li>
-                <li><a href="/category/quem-somos">QUEM SOMOS</a></li>
+                <li><a href="/quem-somos">QUEM SOMOS</a></li>
             </ul>
 
             <form action="/" method="get" class="busca">
