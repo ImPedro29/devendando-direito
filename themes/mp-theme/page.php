@@ -13,7 +13,8 @@
 
                 <div class="posts">
                     <div class="conteudo">
-                        <div class="title"><?php the_title(); ?></div>
+                        <div class="title"><?php the_title(); ?>  
+                    </div>
                         <h1 style="display: none;"><?php the_title(); ?></h1>
                         <article>
                             <?php the_content(); ?>
