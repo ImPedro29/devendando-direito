@@ -140,11 +140,11 @@
                         $cont = 0;
                         while ( $query->have_posts() ) : $query->the_post();?>
                             <?php if($cont == 0){  ?>
-                                <div class="box">
+                                <div class="box" style="height: 0 !important;">
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                             <?php }else if($cont == 3 || $cont == 6){ ?>
                                 </div>
-                                <div class="box">
+                                <div class="box" style="height: 0 !important;">
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                             <?php }else if($cont == 8){ ?>
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
@@ -157,12 +157,12 @@
                             if($cont % 3 == 0 && $cont != 9 && $cont != 0){
                         ?>
                             </div>
-                            <div class="box">
+                            <div class="box" style="height: 0 !important;">
                                 <li><a href="#"> S/ Conteudo</a></li>
                             <?php
                             } else if($cont == 0) {
                                 ?>
-                                <div class="box">
+                                <div class="box" style="height: 0 !important;">
                                     <li><a href="#"> S/ Conteudo</a></li>
                                 <?php
                             } else if($cont == 8){
