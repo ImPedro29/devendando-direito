@@ -15,10 +15,10 @@
                 <div class="posts">
                     <div class="conteudo">
                         <div class="title"><?php the_title(); ?>
-                    <div class="icons"><i class="fab fa-facebook" style="color:blue;margin-right:0.4rem;"></i>
-                    <i class="fab fa-whatsapp" style="color:green;margin-right:0.4rem;"></i>
+                    <div class="icons"><i class="fab fa-facebook" style="color:#4064ac;margin-right:0.4rem;"></i>
+                    <i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i>
                     <i class="fab fa-linkedin" style="color:#0274b3;margin-right:0.4rem;"></i>
-                    <i class="fab fa-instagram" style="color:purple;margin-right:0.4rem;"></i></div></div>
+                    <i class="fab fa-instagram" style="color:#ma8e49c6;margin-right:0.4rem;"></i></div></div>
                         <h1 style="display: none;"><?php the_title(); ?></h1>
                         <article>
                             <?php the_content(); ?>
