@@ -129,11 +129,11 @@
                     <div class="title"><?php single_cat_title(); ?> - Posts recentes</div>
                     <div class="box-flex">
                         <?php
-                        $category = get_the_category()[0];
-                        print_r($category);
+                        $category = get_the_archive_title();
+                        $categoryName = strtolower(str_replace("Categoria: ", "", $category));
                         $args = array(
                             'post_type' => 'post',
-                            'category_name' => $category->name,
+                            'category_name' => $categoryName,
                             'posts_per_page' => 9,
                         );
                         $query = new WP_Query( $args );
@@ -156,7 +156,7 @@
                    
                         ?>
                         </div>
-                     </div>
+
                 </div>
                 <div class="topico cbox">
                     <div class="title"><?php echo single_cat_title(); ?></div>
@@ -165,11 +165,10 @@
                         wp_reset_query();
                         $args = array(
                             'post_type' => 'post',
-                            'category_name' => $category->name,
-                            'posts_per_page' => 50,
+                            'category_name' => $categoryName,
+                            'posts_per_page' => 20,
                             'orderby' => 'name',
                             'order' => 'ASC'
-
                         );
                         $query = new WP_Query( $args );
                         $cont = 0;
