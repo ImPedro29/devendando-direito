@@ -130,9 +130,10 @@
                     <div class="box-flex">
                         <?php
                         $category = get_the_category()[0];
+                        print_r($category);
                         $args = array(
                             'post_type' => 'post',
-                            'category' => $category->cat_ID,
+                            'category_name' => $category->name,
                             'posts_per_page' => 9,
                         );
                         $query = new WP_Query( $args );
@@ -187,7 +188,7 @@
                         wp_reset_query();
                         $args = array(
                             'post_type' => 'post',
-                            'category' => $category->cat_ID,
+                            'category_name' => $category->name,
                             'posts_per_page' => 50,
                             'orderby' => 'name',
                             'order' => 'ASC'
