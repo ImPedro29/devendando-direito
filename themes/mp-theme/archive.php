@@ -140,11 +140,11 @@
                         $cont = 0;
                         while ( $query->have_posts() ) : $query->the_post();?>
                             <?php if($cont == 0){  ?>
-                                <div class="box" style="height: 0 !important;">
+                                <div class="box">
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
-                            <?php }else if($cont == 3 || $cont == 6){ ?>
+                            <?php }else if($cont % 3 == 0 && $cont < 8){ ?>
                                 </div>
-                                <div class="box" style="height: 0 !important;">
+                                <div class="box">
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                             <?php }else if($cont == 8){ ?>
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
@@ -157,12 +157,12 @@
                             if($cont % 3 == 0 && $cont != 9 && $cont != 0){
                         ?>
                             </div>
-                            <div class="box" style="height: 0 !important;">
+                            <div class="box">
                                 <li><a href="#"> S/ Conteudo</a></li>
                             <?php
                             } else if($cont == 0) {
                                 ?>
-                                <div class="box" style="height: 0 !important;">
+                                <div class="box">
                                     <li><a href="#"> S/ Conteudo</a></li>
                                 <?php
                             } else if($cont == 8){
@@ -178,12 +178,12 @@
                             $cont++;
                             }
                         ?>
-                    </div>
+                        </div>
+
                 </div>
                 <div class="topico cbox">
                     <div class="title"><?php echo single_cat_title(); ?></div>
                     <div class="box-flex">
-                        <div class="box">
                         <?php
                         wp_reset_query();
                         $args = array(
@@ -194,10 +194,19 @@
                             'order' => 'ASC'
                         );
                         $query = new WP_Query( $args );
+                        $cont = 0;
+                        $num = intval($category->category_count / 3);
                         while ( $query->have_posts() ) : $query->the_post();?>
+                            <?php if($cont == $category->category_count) { ?>
+                                </div>
+                                <div class="box">
+                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                            <?php }else if($cont == 0){ ?>
+                                <div class="box">
+                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                            <?php }else{ ?>
                                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                        <?php endwhile; ?>
-                        </div>
+                            <?php } $cont++; endwhile; ?>
                     </div>
                 </div>
             </div>
