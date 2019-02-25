@@ -178,8 +178,7 @@
                             $cont++;
                             }
                         ?>
-                        </div>
-                     </div>
+                    </div>
                 </div>
                 <div class="topico cbox">
                     <div class="title"><?php echo single_cat_title(); ?></div>
