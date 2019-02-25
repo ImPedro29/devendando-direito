@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="132" column="50" lean-forward="true" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
+            <state relative-caret-position="330">
+              <caret line="132" column="48" lean-forward="true" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
               <folding>
                 <element signature="e#57#11773#0#PHP" />
               </folding>
@@ -186,7 +187,7 @@
       <workItem from="1549078301642" duration="1269000" />
       <workItem from="1549122174312" duration="10517000" />
       <workItem from="1551034172336" duration="4000000" />
-      <workItem from="1551048770247" duration="7269000" />
+      <workItem from="1551048770247" duration="8047000" />
     </task>
     <task id="LOCAL-00001" summary="Testando Search.php 01">
       <created>1551036169441</created>
@@ -314,11 +315,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551058320483</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="aasdasdsad">
+      <created>1551058485495</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1551058485495</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30497000" />
+    <option name="totallyTimeSpent" value="31275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="165" y="111" width="1201" height="640" extended-state="0" />
@@ -364,7 +372,8 @@
     <MESSAGE value="Arrumando categorias - slug" />
     <MESSAGE value="as" />
     <MESSAGE value="asasas" />
-    <option name="LAST_COMMIT_MESSAGE" value="asasas" />
+    <MESSAGE value="aasdasdsad" />
+    <option name="LAST_COMMIT_MESSAGE" value="aasdasdsad" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -420,8 +429,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="132" column="50" lean-forward="true" selection-start-line="132" selection-start-column="50" selection-end-line="132" selection-end-column="50" />
+        <state relative-caret-position="330">
+          <caret line="132" column="48" lean-forward="true" selection-start-line="132" selection-start-column="48" selection-end-line="132" selection-end-column="48" />
           <folding>
             <element signature="e#57#11773#0#PHP" />
           </folding>
