@@ -142,7 +142,7 @@
                             <?php if($cont == 0){  ?>
                                 <div class="box">
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
-                            <?php }else if($cont % 3 == 0 && $cont < 8){ ?>
+                            <?php }else if($cont == 3 || $cont == 6){ ?>
                                 </div>
                                 <div class="box">
                                     <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
@@ -179,6 +179,7 @@
                             }
                         ?>
                         </div>
+                     </div>
                 </div>
                 <div class="topico cbox">
                     <div class="title"><?php echo single_cat_title(); ?></div>
