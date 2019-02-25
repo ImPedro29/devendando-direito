@@ -129,11 +129,11 @@
                     <div class="title"><?php single_cat_title(); ?> - Posts recentes</div>
                     <div class="box-flex">
                         <?php
-                        $category = get_the_category()[0];
-                        print_r(get_the_archive_title());
+                        $category = get_the_archive_title();
+                        $categoryName = strtolower(str_replace("Categoria: ", "", $category));
                         $args = array(
                             'post_type' => 'post',
-                            'category_name' => $category->slug,
+                            'category_name' => $categoryName,
                             'posts_per_page' => 9,
                         );
                         $query = new WP_Query( $args );
@@ -188,7 +188,7 @@
                         wp_reset_query();
                         $args = array(
                             'post_type' => 'post',
-                            'category_name' => $category->slug,
+                            'category_name' => $categoryName,
                             'posts_per_page' => 100,
                             'orderby' => 'name',
                             'order' => 'ASC'
