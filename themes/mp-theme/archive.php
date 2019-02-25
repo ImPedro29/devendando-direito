@@ -153,30 +153,7 @@
                                 <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                         <?php } $cont++; endwhile;
 
-                        while ($cont < 9){
-                            if($cont % 3 == 0 && $cont != 9 && $cont != 0){
-                        ?>
-                            </div>
-                            <div class="box">
-                                <li><a href="#"> S/ Conteudo</a></li>
-                            <?php
-                            } else if($cont == 0) {
-                                ?>
-                                <div class="box">
-                                    <li><a href="#"> S/ Conteudo</a></li>
-                                <?php
-                            } else if($cont == 8){
-                                ?>
-                                    <li><a href="#"> S/ Conteudo</a></li>
-                                </div>
-                                <?php
-                            } else {
-                                ?>
-                                    <li><a href="#"> S/ Conteudo</a></li>
-                                <?php
-                            }
-                            $cont++;
-                            }
+                   
                         ?>
                         </div>
                      </div>
