@@ -130,6 +130,7 @@
                     <div class="box-flex">
                         <?php
                         $category = get_the_category()[0];
+                        print_r($category);
                         $args = array(
                             'post_type' => 'post',
                             'category_name' => $category->name,
@@ -188,7 +189,7 @@
                         $args = array(
                             'post_type' => 'post',
                             'category_name' => $category->name,
-                            'posts_per_page' => 100,
+                            'posts_per_page' => 50,
                             'orderby' => 'name',
                             'order' => 'ASC'
 
