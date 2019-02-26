@@ -131,7 +131,7 @@
                         <?php
                         $category = get_the_archive_title();	               
                         $categoryName = strtolower(str_replace("Categoria: ", "", $category));
-
+                   
                         $query = new WP_Query(  array(
                             'post_type' => 'post',
                             'category_name' => $categoryName,
@@ -195,9 +195,9 @@
 
                         $query = new WP_Query( $args );
                         $cont = 0;
-                        $num = intval($categoryName->$categoryName_count / 3);
+                        $num = intval($category->category_count / 3);
                         while ( $query->have_posts() ) : $query->the_post();?>
-                            <?php if($cont == $categoryName->$categoryName_count) { ?>
+                            <?php if($cont == $category->category_count) { ?>
                                 </div>
                                 <div class="box">
                                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
