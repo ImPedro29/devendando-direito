@@ -131,10 +131,9 @@
                         <?php
                         $category = get_the_archive_title();	               
                         $categoryName = strtolower(str_replace("Categoria: ", "", $category));
-                        echo $categoryName;
                         $query = new WP_Query(  array(
                             'post_type' => 'post',
-                            'category_name' => 'significados',
+                            'category_name' => $categoryName,
                             'posts_per_page' => 9,
                         ) );
                         $cont = 0;
