@@ -107,9 +107,9 @@
                 </div>
             </div>
         </div>
-        <?php get_sidebar(); ?>
-    </div>
 
+    </div>
+    <?php get_sidebar(); ?>
 <?php } else if (is_category()) { ?>
     <div class="principal">
         <div class="container">
@@ -210,10 +210,11 @@
                     </div>
                 </div>
             </div>
+            <?php get_sidebar(); ?>
         </div>
-        
+       
     </div>
-    <?php get_sidebar(); ?>
+
     <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
     Pagina Desabilitada.
     <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
