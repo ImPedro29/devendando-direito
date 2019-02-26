@@ -552,6 +552,13 @@ header li a:hover {
   header ul.menu li {
     padding: 0;
   }
+  .box {
+    height: max-content;
+    width: 90%;
+  }
+  .box:last-child {
+    display: block;
+  }
 }
 
 p {

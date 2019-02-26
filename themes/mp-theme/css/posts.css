@@ -219,4 +219,11 @@ fieldset {
   .icons i {
     margin: 0.4rem;
   }
+  .box {
+    height: max-content;
+    width: 90%;
+  }
+  .box:last-child {
+    display: block;
+  }
 }
