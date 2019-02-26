@@ -10,5 +10,5 @@ $category = get_the_category()[0];
                         $query = new WP_Query( $args );
                         $cont = 0;
                         while ( $query->have_posts() ) : $query->the_post();?>
-                                    <li><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></li>
+                                    <li><a href="<?php the_permalink(); ?>"><?php echo $category->cat_name ; ?></a></li>
                         <?php endwhile ?>
