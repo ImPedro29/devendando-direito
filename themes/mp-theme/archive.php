@@ -131,7 +131,9 @@
                         <?php
                         $category = get_the_archive_title();	               
                         $categoryName = strtolower(str_replace("Categoria: ", "", $category));
-                        echo $categoryName;
+                        if($categoryName=="significado"){
+                            $categoryName="significados";
+                        }
                         $query = new WP_Query(  array(
                             'post_type' => 'post',
                             'category_name' => $categoryName,
