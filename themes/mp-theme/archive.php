@@ -129,14 +129,11 @@
                     <div class="title"><?php single_cat_title(); ?> - Posts recentes</div>
                     <div class="box-flex">
                         <?php
-                        $category = get_the_category()[0];
-                        print_r($category);
-                        $args = array(
+                        $query = new WP_Query(  array(
                             'post_type' => 'post',
-                            'category_name' => $category->name,
+                            'category_name' => 'significados',
                             'posts_per_page' => 9,
-                        );
-                        $query = new WP_Query( $args );
+                        ) );
                         $cont = 0;
                         while ( $query->have_posts() ) : $query->the_post();?>
                             <?php if($cont == 0){  ?>
@@ -153,7 +150,7 @@
                                 <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                         <?php } $cont++; endwhile;
 
-                        while ($cont < 9){
+                        while ($cont < 8){
                             if($cont % 3 == 0 && $cont != 9 && $cont != 0){
                         ?>
                             </div>
