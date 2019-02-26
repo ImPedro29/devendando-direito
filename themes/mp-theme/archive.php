@@ -129,6 +129,8 @@
                     <div class="title"><?php single_cat_title(); ?> - Posts recentes</div>
                     <div class="box-flex">
                         <?php
+                        $categoryName=strtolower(single_cat_title());
+                        echo $categoryName;
                         $query = new WP_Query(  array(
                             'post_type' => 'post',
                             'category_name' => 'significados',
