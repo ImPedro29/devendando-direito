@@ -129,11 +129,11 @@
                     <div class="title"><?php single_cat_title(); ?> - Posts recentes</div>
                     <div class="box-flex">
                         <?php
-                        $category = get_the_archive_title();
-                        $categoryName = strtolower(str_replace("Categoria: ", "", $category));
+                        $category = get_the_category()[0];
+                        print_r($category);
                         $args = array(
                             'post_type' => 'post',
-                            'category_name' => $categoryName,
+                            'category_name' => $category->name,
                             'posts_per_page' => 9,
                         );
                         $query = new WP_Query( $args );
@@ -153,10 +153,33 @@
                                 <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                         <?php } $cont++; endwhile;
 
-                   
+                        while ($cont < 9){
+                            if($cont % 3 == 0 && $cont != 9 && $cont != 0){
+                        ?>
+                            </div>
+                            <div class="box">
+                                <li><a href="#"> S/ Conteudo</a></li>
+                            <?php
+                            } else if($cont == 0) {
+                                ?>
+                                <div class="box">
+                                    <li><a href="#"> S/ Conteudo</a></li>
+                                <?php
+                            } else if($cont == 8){
+                                ?>
+                                    <li><a href="#"> S/ Conteudo</a></li>
+                                </div>
+                                <?php
+                            } else {
+                                ?>
+                                    <li><a href="#"> S/ Conteudo</a></li>
+                                <?php
+                            }
+                            $cont++;
+                            }
                         ?>
                         </div>
-
+                     </div>
                 </div>
                 <div class="topico cbox">
                     <div class="title"><?php echo single_cat_title(); ?></div>
@@ -165,10 +188,11 @@
                         wp_reset_query();
                         $args = array(
                             'post_type' => 'post',
-                            'category_name' => $categoryName,
-                            'posts_per_page' => 20,
+                            'category_name' => $category->name,
+                            'posts_per_page' => 50,
                             'orderby' => 'name',
                             'order' => 'ASC'
+
                         );
                         $query = new WP_Query( $args );
                         $cont = 0;
