@@ -226,6 +226,12 @@ fieldset {
   .box:last-child {
     display: block;
   }
+  .box-flex .box:last-child {
+    display: none;
+  }
+  .box-flex .box li:last-child {
+    border: none;
+  }
   .box li {
     padding: 0.1rem;
     height: 2.5rem;
