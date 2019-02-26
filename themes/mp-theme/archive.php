@@ -129,7 +129,8 @@
                     <div class="title"><?php single_cat_title(); ?> - Posts recentes</div>
                     <div class="box-flex">
                         <?php
-                        $categoryName=strtolower(single_cat_title());
+                        $category = get_the_archive_title();	               
+                        $categoryName = strtolower(str_replace("Categoria: ", "", $category));
                         echo $categoryName;
                         $query = new WP_Query(  array(
                             'post_type' => 'post',
