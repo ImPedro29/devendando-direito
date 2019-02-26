@@ -107,9 +107,9 @@
                 </div>
             </div>
         </div>
-
+        <?php get_sidebar(); ?>
     </div>
-    <?php get_sidebar(); ?>
+   
 <?php } else if (is_category()) { ?>
     <div class="principal">
         <div class="container">
