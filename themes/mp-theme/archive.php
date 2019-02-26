@@ -6,7 +6,7 @@
             <div class="categoria">
                 <div class="cbox">
                     <div class="inicio">
-                        <img src="icons/open-book.svg" style="height:20px" />
+                    <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                         <div class="alinhar">
                             <li><a href="">&nbsp;SIGNIFICADOS</a></li>
                         </div>
