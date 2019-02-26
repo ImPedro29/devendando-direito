@@ -12,3 +12,18 @@ $category = get_the_category()[0];
                         while ( $query->have_posts() ) : $query->the_post();?>
                                     <li><a href="<?php the_permalink(); ?>"><?php echo $category->cat_name ; ?></a></li>
                         <?php endwhile ?>
+
+<?php
+                        $cats = array();
+foreach (get_the_category(0) as $c) {
+$cat = get_category($c);
+array_push($cats, $cat->name);
+}
+
+if (sizeOf($cats) > 0) {
+$post_categories = implode(', ', $cats);
+} else {
+$post_categories = 'Not Assigned';
+}
+
+echo $post_categories;
