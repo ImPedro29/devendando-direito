@@ -191,9 +191,8 @@
                             'category_name' => $category->name,
                             'posts_per_page' => 50,
                             'orderby' => 'name',
-                            'order' => 'ASC'
+                            'order' => 'ASC');
 
-                        );
                         $query = new WP_Query( $args );
                         $cont = 0;
                         $num = intval($category->category_count / 3);
