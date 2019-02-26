@@ -211,9 +211,9 @@
                 </div>
             </div>
         </div>
-        <?php get_sidebar(); ?>
+        
     </div>
-
+    <?php get_sidebar(); ?>
     <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
     Pagina Desabilitada.
     <?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
