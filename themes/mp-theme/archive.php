@@ -227,8 +227,9 @@ $args = array(
                            endwhile;?></div><?php } ?>
                     </div>
                 </div>
+                <?php get_sidebar(); ?>
             </div>
-            <?php get_sidebar(); ?>
+            
         </div>
        
     </div>
