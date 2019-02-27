@@ -203,10 +203,10 @@
                             <?php if($cont == $category->category_count) { ?>
                                 </div>
                                 <div class="box">
-                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                    <li class="item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php }else if($cont == 0){ ?>
-                                <div class="box">
-                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                <div class="item">
+                                    <li class="item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php }else{ ?>
                                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php } $cont++; endwhile; }else{?>
