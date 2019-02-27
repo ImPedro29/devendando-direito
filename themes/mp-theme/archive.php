@@ -228,15 +228,13 @@ $args = array(
                     </div>
                 </div>
 
-                <?php
-                if(is_category('significados')){
-                get_sidebar(); }?>  
+               
+              
               
       
             </div>
             <?php
-                if(!is_category('significados')){
-                get_sidebar(); }?>  
+                get_sidebar(); ?> 
         </div>
        
     </div>
