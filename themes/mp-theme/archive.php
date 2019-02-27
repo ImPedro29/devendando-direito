@@ -234,11 +234,11 @@ $args = array(
               
       
             </div>
-            
-        </div>
-        <?php
+            <?php
                 if(!is_category('significados')){
                 get_sidebar(); }?>  
+        </div>
+       
     </div>
 
     <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
