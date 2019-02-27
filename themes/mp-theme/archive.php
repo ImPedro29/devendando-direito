@@ -230,7 +230,7 @@ $args = array(
             </div>
             <?php
             if(is_category('significados')){
-           
+                get_sidebar();
             }
             ?>
         </div>
