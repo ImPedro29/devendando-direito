@@ -222,7 +222,7 @@ $args = array(
                                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
 </div>    
                     <?php        
-                            }?>
+                           endwhile;}?>
                     </div>
                 </div>
             </div>
