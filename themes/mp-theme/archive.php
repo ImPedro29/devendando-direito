@@ -209,7 +209,9 @@
                                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php }else{ ?>
                                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                            <?php } $cont++; endwhile; }else{
+                            <?php } $cont++; endwhile; }else{?>
+
+<div class="box"><?php
 
 $args = array(
     'post_type' => 'post',
@@ -218,11 +220,11 @@ $args = array(
     'orderby' => 'name',
     'order' => 'ASC');
     while ( $query->have_posts() ) : $query->the_post();?>
-                            <div class="box">
+                            
                                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-</div>    
+    
                     <?php        
-                           endwhile;}?>
+                           endwhile;?></div><?php } ?>
                     </div>
                 </div>
             </div>
