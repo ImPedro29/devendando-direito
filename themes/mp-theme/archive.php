@@ -227,15 +227,17 @@ $args = array(
                            endwhile;?></div><?php } ?>
                     </div>
                 </div>
+
                 <?php
-                if(!is_category('significados')){
+                if(is_category('significados')){
                 get_sidebar(); }?>  
+              
       
             </div>
             
         </div>
         <?php
-                if(is_category('significados')){
+                if(!is_category('significados')){
                 get_sidebar(); }?>  
     </div>
 
