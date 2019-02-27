@@ -187,6 +187,7 @@
                     <div class="title"><?php echo single_cat_title(); ?></div>
                     <div class="box-flex">
                         <?php
+                        if (is_category('significados')) {
                         wp_reset_query();
                         $args = array(
                             'post_type' => 'post',
@@ -208,7 +209,20 @@
                                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php }else{ ?>
                                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                            <?php } $cont++; endwhile; ?>
+                            <?php } $cont++; endwhile; }else{
+
+$args = array(
+    'post_type' => 'post',
+    'category_name' => $categoryName,
+    'posts_per_page' => 50,
+    'orderby' => 'name',
+    'order' => 'ASC');
+    while ( $query->have_posts() ) : $query->the_post();?>
+                            <div class="box">
+                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+</div>    
+                    <?php        
+                            }?>
                     </div>
                 </div>
             </div>
