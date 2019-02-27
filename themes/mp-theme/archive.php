@@ -211,7 +211,7 @@
                                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php } $cont++; endwhile; }else{?>
 
-<div class="box" style="display:block;"><?php
+<div class="box" style="display:block;padding:0.4rem;"><?php
 
 $args = array(
     'post_type' => 'post',
