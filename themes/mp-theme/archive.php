@@ -229,14 +229,17 @@ $args = array(
                 </div>
 
                
-              
-              
-      
             </div>
             <?php
-                get_sidebar(); ?> 
+            if($cont>=9){
+                get_sidebar(); 
+                }?> 
         </div>
-       
+        <?php
+              if($cont<9){
+                get_sidebar();
+              }
+              ?>
     </div>
 
     <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
