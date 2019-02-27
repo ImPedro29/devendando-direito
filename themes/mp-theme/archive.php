@@ -228,9 +228,9 @@ $args = array(
                     </div>
                 </div>
             </div>
-            <?php get_sidebar(); ?>
+            
         </div>
-       
+        <?php get_sidebar(); ?>
     </div>
 
     <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
