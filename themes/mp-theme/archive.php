@@ -217,15 +217,12 @@ $args = array(
     'posts_per_page' => 50,
     'orderby' => 'name',
     'order' => 'ASC');
-    ?>
-    <div class="box"><?php
     while ( $query->have_posts() ) : $query->the_post();?>
-                            
+                            <div class="box">
                                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-   
+</div>    
                     <?php        
-                           endwhile;
-                           ?></div><?php }?>
+                           endwhile;}?>
                     </div>
                 </div>
             </div>
