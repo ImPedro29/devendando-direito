@@ -243,9 +243,7 @@ border:none;
   .box-flex .box:last-child {
     display: none;
   }
-  .box-flex .box li:last-child {
-    display: none;
-  }
+  
   .box li {
     padding: 0.2rem;
     height: 2.5rem;
