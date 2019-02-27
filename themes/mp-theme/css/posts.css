@@ -230,7 +230,7 @@ fieldset {
     display: none;
   }
   .box-flex .box li:last-child {
-    border: none;
+    display: none;
   }
   .box li {
     padding: 0.1rem;
