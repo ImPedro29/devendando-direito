@@ -203,10 +203,10 @@
                             <?php if($cont == $category->category_count) { ?>
                                 </div>
                                 <div class="box">
-                                    <li class="item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php }else if($cont == 0){ ?>
-                                <div class="item">
-                                    <li class="item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                <div class="box">
+                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php }else{ ?>
                                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php } $cont++; endwhile; }else{?>
@@ -221,7 +221,7 @@ $args = array(
     'order' => 'ASC');
     while ( $query->have_posts() ) : $query->the_post();?>
                             
-                                    <li class="item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                    <li style="padding:0.2rem;height:2.5rem;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
     
                     <?php        
                            endwhile;?></div><?php } ?>
