@@ -210,7 +210,7 @@
                             <?php }else{ ?>
                                 <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
                             <?php } $cont++; endwhile; }else{?>
-
+                            </div>
 <div class="box"><?php
 
 $args = array(
