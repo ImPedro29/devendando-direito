@@ -237,5 +237,10 @@ fieldset {
   .box-flex .box li:last-child {
     display: none;
   }
+  .item{
+    padding: 0.2rem;
+    height: 2.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
 
 }
