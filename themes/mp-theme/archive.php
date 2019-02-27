@@ -221,7 +221,7 @@ $args = array(
     'order' => 'ASC');
     while ( $query->have_posts() ) : $query->the_post();?>
                             
-                                    <li style="padding:0.2rem;height:2.5rem;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                    <li class="item"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
     
                     <?php        
                            endwhile;?></div><?php } ?>
