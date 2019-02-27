@@ -227,14 +227,16 @@ $args = array(
                            endwhile;?></div><?php } ?>
                     </div>
                 </div>
-                <?php get_sidebar(); ?>  
+                <?php
+                if(!is_category('significados')){
+                get_sidebar(); }?>  
+      
             </div>
-           
- 
             
         </div>
-      
-      
+        <?php
+                if(is_category('significados')){
+                get_sidebar(); }?>  
     </div>
 
     <?php /* If this is a daily archive */ } elseif (is_day()) { ?>
