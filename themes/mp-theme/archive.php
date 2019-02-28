@@ -8,12 +8,12 @@
                     <div class="inicio">
                             <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                         <div class="alinhar">
-                            <li><a href="">&nbsp;SIGNIFICADOS</a></li>
+                            <li><a href="">&nbsp;Publicações</a></li>
                         </div>
                     </div>
                 </div>
         <div class="container-2 cbox">
-                        <div class="title">Publicações</div>
+                        <div class="title">Blog</div>
                 <div class="categorias">
                         <div class="coluna-1">
                             <div class="topico">
