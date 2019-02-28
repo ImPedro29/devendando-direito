@@ -13,7 +13,7 @@
                     </div>
                 </div>
         <div class="container-2 cbox">
-                        <div class="ptitle">Categorias</div>
+                        <div class="title">Publicações</div>
                 <div class="categorias">
                         <div class="coluna-1">
                             <div class="topico">
