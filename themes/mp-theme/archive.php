@@ -20,6 +20,8 @@
                             <?php
               $the_query = new WP_Query(  array(
                 'post_type' => 'post',
+                'category_name' => 'blog',
+                
             ) );
                 // The Query
              
