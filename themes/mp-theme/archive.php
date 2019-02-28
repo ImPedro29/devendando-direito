@@ -6,103 +6,43 @@
             <div class="categoria">
                 <div class="cbox">
                     <div class="inicio">
-                    <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
+                            <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                         <div class="alinhar">
                             <li><a href="">&nbsp;SIGNIFICADOS</a></li>
                         </div>
                     </div>
                 </div>
-                <div class="container-2 cbox">
-                    <div class="ptitle">Categorias</div>
-                    <div class="categorias">
+        <div class="container-2 cbox">
+                        <div class="ptitle">Categorias</div>
+                <div class="categorias">
                         <div class="coluna-1">
                             <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Adocao</a></li>
-                                    <li><a href="">Penção Alimentícia</a></li>
-                                    <li><a href="">Casamento</a></li>
-                                    <li><a href="">...</a></li>
+                            <?php
+                $s=get_search_query();
+                $args = array(
+                    's' =>$s
+                );
+                // The Query
+                $the_query = new WP_Query( $args );
+                if ( $the_query->have_posts() ) {
+                    while ( $the_query->have_posts() ) {
+                        $the_query->the_post();
+                        ?>
+                        <a href="<?php the_permalink(); ?>">
+                            <div class="topico cbox">
+                                <div class="conteudo">
+                                    <div class="title"><?php the_title(); ?></div>
+                                    <article>
+                                        <?php the_excerpt(); ?>
+                                    </article>
                                 </div>
                             </div>
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Adocao</a></li>
-                                    <li><a href="">Penção Alimentícia</a></li>
-                                    <li><a href="">Casamento</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Adocao</a></li>
-                                    <li><a href="">Penção Alimentícia</a></li>
-                                    <li><a href="">Casamento</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="coluna-1">
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Jovem Aprendiz</a></li>
-                                    <li><a href="">Estabilidade</a></li>
-                                    <li><a href="">Emprego Doméstico</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Jovem Aprendiz</a></li>
-                                    <li><a href="">Estabilidade</a></li>
-                                    <li><a href="">Emprego Doméstico</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Jovem Aprendiz</a></li>
-                                    <li><a href="">Estabilidade</a></li>
-                                    <li><a href="">Emprego Doméstico</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="coluna-1">
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Pesão por Morte</a></li>
-                                    <li><a href="">Auxílio Reclusão</a></li>
-                                    <li><a href="">Salário Maternidade</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Pesão por Morte</a></li>
-                                    <li><a href="">Auxílio Reclusão</a></li>
-                                    <li><a href="">Salário Maternidade</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                            <div class="topico">
-                                <div class="title"><a href="#">Familia</a></div>
-                                <div class="sub-topicos">
-                                    <li><a href="">Pesão por Morte</a></li>
-                                    <li><a href="">Auxílio Reclusão</a></li>
-                                    <li><a href="">Salário Maternidade</a></li>
-                                    <li><a href="">...</a></li>
-                                </div>
-                            </div>
-                        </div>
+                        </a>
+                        <?php
+                    }
+                }?>
+                               
+                            </div> 
                     </div>
                 </div>
             </div>
