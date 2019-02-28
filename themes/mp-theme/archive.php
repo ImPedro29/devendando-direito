@@ -49,7 +49,8 @@
            
         </div>
         <?php get_sidebar(); ?>
-   
+            </div>
+            </div>
    
 <?php } else if (is_category()) { ?>
     <div class="principal">
