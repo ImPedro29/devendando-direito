@@ -20,8 +20,6 @@
                             <?php
               $the_query = new WP_Query(  array(
                 'post_type' => 'post',
-                'category_name' => $categoryName,
-                'posts_per_page' => 9,
             ) );
                 // The Query
              
