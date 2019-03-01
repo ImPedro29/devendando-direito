@@ -12,7 +12,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <div class="categorias">
                         <div class="coluna-1">
                             <div class="topico">
@@ -49,8 +48,9 @@
         
         
             </div>
-            <?php get_sidebar(); ?>
+            
             </div>
+            <?php get_sidebar(); ?>
             </div>
    
 <?php } else if (is_category()) { ?>
