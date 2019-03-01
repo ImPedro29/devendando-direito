@@ -13,7 +13,7 @@
                     </div>
                 </div>
         <div class="container-2 cbox">
-                        <div class="title">Blog</div>
+                
                 <div class="categorias">
                         <div class="coluna-1">
                             <div class="topico">
@@ -48,7 +48,7 @@
                 </div>
             </div>
            
-        </div>
+        
         
             </div>
             <?php get_sidebar(); ?>
