@@ -530,7 +530,7 @@ header li a:hover {
     margin: 0 auto;
   }
   div .cbox {
-    padding-bottom: 0;
+    padding-bottom:0.6rem;
   }
   .inicio {
     margin-top: 40px;
