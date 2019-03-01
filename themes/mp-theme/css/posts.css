@@ -161,7 +161,7 @@ fieldset {
 }
 .box li:last-child{
 border:none;
-}.cbox .title{
+}.conteudo .title{
   color:black;
   border-bottom:1px solid rgba(0, 0, 0, 0.1);
 }
