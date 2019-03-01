@@ -12,7 +12,6 @@
                         </div>
                     </div>
                 </div>
-        <div class="container-2 cbox">
                 
                 <div class="categorias">
                         <div class="coluna-1">
@@ -44,7 +43,6 @@
                 }?>
                                
                             </div> 
-                    </div>
                 </div>
             </div>
            
