@@ -154,13 +154,16 @@ fieldset {
   height: 2.5rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .box-flex .box li {
-  padding: 1rem;
-  height: 3.5rem;
+  padding: 1.3rem;
+  height: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .box li:last-child{
-border:none;
+  border:none;
+
 }.conteudo .title{
 
   border-bottom:1px solid rgba(0, 0, 0, 0.1);
