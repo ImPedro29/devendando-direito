@@ -5,8 +5,9 @@
     <script>
         let widget = document.querySelector(".widget");
         if(widget.querySelector(".title").innerHTML === "[ATIVA]"){
-            widget.classList.add("propaganda");
             widget.removeChild(widget.querySelector(".title"));
+            widget.classList.add("propaganda");
+            widget.classList.remove("widget");
         }
     </script>
 </div>
