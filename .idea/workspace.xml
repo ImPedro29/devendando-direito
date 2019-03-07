@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/css/post.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="196">
+              <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="397" column="11" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -130,6 +139,7 @@
         <option value="$PROJECT_DIR$/themes/mp-theme/functions.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/posts.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/post.css" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/style.css" />
       </list>
     </option>
   </component>
@@ -137,8 +147,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="123" />
+    <option name="x" value="101" />
+    <option name="y" value="106" />
     <option name="width" value="1221" />
     <option name="height" value="662" />
   </component>
@@ -218,7 +228,7 @@
       <workItem from="1551763249277" duration="29000" />
       <workItem from="1551763734458" duration="7000" />
       <workItem from="1551837165885" duration="10000" />
-      <workItem from="1551999089703" duration="1124000" />
+      <workItem from="1551999089703" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="Testando Search.php 01">
       <created>1551036169441</created>
@@ -437,14 +447,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552000055153</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Arrumando corpo da postagem">
+      <created>1552000227031</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1552000227031</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36643000" />
+    <option name="totallyTimeSpent" value="37093000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="123" width="1221" height="662" extended-state="0" />
+    <frame x="101" y="106" width="1221" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3344681" />
@@ -497,7 +514,8 @@
     <MESSAGE value="Categorias Arrumando sidebar 06" />
     <MESSAGE value="Arrumando widget espacamento e font do post" />
     <MESSAGE value="Arrumando widget p" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando widget p" />
+    <MESSAGE value="Arrumando corpo da postagem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando corpo da postagem" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -536,13 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="162" column="26" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -596,8 +607,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="196">
+          <caret line="59" column="18" lean-forward="true" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="397" column="11" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
         </state>
       </provider>
     </entry>

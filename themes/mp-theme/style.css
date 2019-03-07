@@ -394,6 +394,10 @@ header li a:hover {
   width: 100%;
 }
 
+.comentar.cbox{
+  padding: 1.5em !important;
+}
+
 .input {
   display: flex;
   margin: 8px 0;
