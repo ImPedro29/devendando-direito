@@ -6,7 +6,7 @@
         <p>admin@desvendandodireito.com.br</p>
     </div>
     <a
-            href="#"
+            href="/politica-de-uso"
             style="font-size:14px;font-weight:bold;color:orange;margin-top:4px;"
     >
         POLITICA DE USO
