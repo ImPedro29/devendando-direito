@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
+    <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="Arrumando categorias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/css/post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/css/posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/css/posts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,28 +15,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
+        <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="41" column="93" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/sidebar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="392" column="13" lean-forward="true" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
+            <state relative-caret-position="345">
+              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -45,17 +26,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/posts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+            <state relative-caret-position="15">
+              <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
+        <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+            <state relative-caret-position="57">
+              <caret line="272" column="27" lean-forward="true" selection-start-line="272" selection-start-column="27" selection-end-line="272" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -82,6 +72,8 @@
       <find>.box li</find>
       <find>coment</find>
       <find>comentar</find>
+      <find>widget</find>
+      <find>footer</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: 'Lato', sans-serif;</replace>
@@ -115,10 +107,11 @@
         <option value="$PROJECT_DIR$/themes/mp-theme/header.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/archive.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/functions.php" />
-        <option value="$PROJECT_DIR$/themes/mp-theme/style.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/sidebar.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/posts.css" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/single.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/post.css" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/style.css" />
       </list>
     </option>
   </component>
@@ -207,7 +200,7 @@
       <workItem from="1551763249277" duration="29000" />
       <workItem from="1551763734458" duration="7000" />
       <workItem from="1551837165885" duration="10000" />
-      <workItem from="1551999089703" duration="2693000" />
+      <workItem from="1551999089703" duration="3449000" />
     </task>
     <task id="LOCAL-00001" summary="Testando Search.php 01">
       <created>1551036169441</created>
@@ -461,11 +454,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552001497565</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Arrumando as coisa">
+      <created>1552001810530</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1552001810530</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38212000" />
+    <option name="totallyTimeSpent" value="38968000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -497,7 +497,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testando Search.php 04" />
     <MESSAGE value="Testando Search.php 05" />
     <MESSAGE value="Testando Search.php 06" />
     <MESSAGE value="Arrumando widget para post e tirando justify" />
@@ -522,7 +521,8 @@
     <MESSAGE value="Arrumando Comentarios" />
     <MESSAGE value="Arrumando propaganda" />
     <MESSAGE value="Arrumar comentarios e propagandas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumar comentarios e propagandas" />
+    <MESSAGE value="Arrumando as coisa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando as coisa" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -595,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="41" column="93" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/i.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -612,24 +605,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="392" column="13" lean-forward="true" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
+        <state relative-caret-position="532">
+          <caret line="41" column="93" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/posts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="85" column="21" selection-start-line="85" selection-start-column="21" selection-end-line="85" selection-end-column="21" />
+        <state relative-caret-position="15">
+          <caret line="91" column="49" selection-start-line="91" selection-start-column="49" selection-end-line="91" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="442">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="272" column="27" lean-forward="true" selection-start-line="272" selection-start-column="27" selection-end-line="272" selection-end-column="27" />
         </state>
       </provider>
     </entry>
