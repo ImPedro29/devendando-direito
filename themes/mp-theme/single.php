@@ -87,11 +87,11 @@
         list-style-type: none;
     }
 
-    .alinhar li::after{
+    .alinhar li::before{
         content: ">";
     }
 
-    .alinhar li:last-child::after{
+    .alinhar li:last-child::before, .alinhar li:first-child::before{
         content: "";
     }
 
