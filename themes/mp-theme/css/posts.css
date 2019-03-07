@@ -150,8 +150,8 @@ fieldset {
 }
 
 .box li {
-  padding: 0.2rem;
-  height: 2.5rem;
+  padding: 1.3rem;
+  height: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -166,12 +166,12 @@ fieldset {
 
 }.conteudo .title{
 
-  border-bottom:1px solid rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
-    font-size: 1.6rem;
-    font-weight: 200;
-    color: #2d2d2d;
-}
+   border-bottom:1px solid rgba(0, 0, 0, 0.1);
+   text-transform: uppercase;
+   font-size: 1.6rem;
+   font-weight: 200;
+   color: #2d2d2d;
+ }
 @media screen and (max-width: 1024px) {
   header {
     padding: 0;
@@ -253,7 +253,7 @@ fieldset {
   .box-flex .box:last-child {
     display: none;
   }
-  
+
   .box li {
     padding: 0.2rem;
     height: 2.5rem;
@@ -264,11 +264,11 @@ fieldset {
     height: 3.5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   }.item{
-      padding: 0.2rem;
-    height: 2.5rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
+     padding: 0.2rem;
+     height: 2.5rem;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+   }
   .box li:last-child{
     border:none;
-    }
+  }
 }

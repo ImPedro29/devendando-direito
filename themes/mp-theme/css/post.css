@@ -27,6 +27,11 @@
 
 article {
   margin-top: 20px;
+  font-size: initial;
+}
+
+article h2{
+  font-weight: normal;
 }
 
 .conteudo .conteudo {
