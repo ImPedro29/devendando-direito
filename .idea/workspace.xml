@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="397" column="11" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
+            <state relative-caret-position="345">
+              <caret line="400" column="6" selection-start-line="400" selection-start-column="6" selection-end-line="400" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/mp-theme/sidebar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -104,6 +112,7 @@
       <find>.box-flex .box li</find>
       <find>.box-flex</find>
       <find>.box li</find>
+      <find>comentar</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: 'Lato', sans-serif;</replace>
@@ -140,6 +149,7 @@
         <option value="$PROJECT_DIR$/themes/mp-theme/css/posts.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/post.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/style.css" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/sidebar.php" />
       </list>
     </option>
   </component>
@@ -147,8 +157,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="101" />
-    <option name="y" value="106" />
+    <option name="x" value="67" />
+    <option name="y" value="353" />
     <option name="width" value="1221" />
     <option name="height" value="662" />
   </component>
@@ -228,7 +238,7 @@
       <workItem from="1551763249277" duration="29000" />
       <workItem from="1551763734458" duration="7000" />
       <workItem from="1551837165885" duration="10000" />
-      <workItem from="1551999089703" duration="1574000" />
+      <workItem from="1551999089703" duration="2112000" />
     </task>
     <task id="LOCAL-00001" summary="Testando Search.php 01">
       <created>1551036169441</created>
@@ -454,14 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552000227031</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Arrumando Comentarios">
+      <created>1552000679869</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1552000679869</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37093000" />
+    <option name="totallyTimeSpent" value="37631000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="101" y="106" width="1221" height="662" extended-state="0" />
+    <frame x="67" y="353" width="1221" height="662" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3344681" />
@@ -490,7 +507,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testando Search.php 01" />
     <MESSAGE value="Testando Search.php 02" />
     <MESSAGE value="Testando Search.php 03" />
     <MESSAGE value="Testando Search.php 04" />
@@ -515,7 +531,8 @@
     <MESSAGE value="Arrumando widget espacamento e font do post" />
     <MESSAGE value="Arrumando widget p" />
     <MESSAGE value="Arrumando corpo da postagem" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando corpo da postagem" />
+    <MESSAGE value="Arrumando Comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando Comentarios" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -614,8 +631,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="397" column="11" selection-start-line="397" selection-start-column="11" selection-end-line="397" selection-end-column="11" />
+        <state relative-caret-position="345">
+          <caret line="400" column="6" selection-start-line="400" selection-start-column="6" selection-end-line="400" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="59" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
         </state>
       </provider>
     </entry>
