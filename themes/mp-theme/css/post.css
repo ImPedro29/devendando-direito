@@ -27,11 +27,6 @@
 
 article {
   margin-top: 20px;
-  font-size: initial;
-}
-
-article h2{
-  font-weight: normal;
 }
 
 .conteudo .conteudo {
@@ -64,6 +59,10 @@ article h2{
 
 .description .texto {
   padding: 0 10px;
+}
+
+.textwidget p{
+  margin: 0 !important;
 }
 
 @media screen and (max-width: 1024px) {
