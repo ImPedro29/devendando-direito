@@ -9,7 +9,7 @@
                 <div class="inicio">
                     <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                     <div class="alinhar">
-                    <li><a href="#">Publicações</a></li>
+                    <li><a href="#" class="title">Publicações</a></li>
                         <ul class="post-categories">
                             <li>
                             <?php
