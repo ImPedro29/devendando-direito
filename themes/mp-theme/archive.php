@@ -27,7 +27,7 @@
                     while ( $the_query->have_posts() ) {
                         $the_query->the_post();
                         ?>
-                        <a href="<?php the_permalink(); ?>">
+                        <a href="#">
                             <div class="topico cbox">
                                 <div class="conteudo">
                                     <div class="title"><?php the_title(); ?></div>
