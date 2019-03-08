@@ -1,7 +1,9 @@
 <?php get_header(); ?>
 
 <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/mp-theme/css/post.css" />
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2"></script>
 
+<div id="fb-root"></div>
 <div class="principal">
     <div class="container">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -9,7 +11,7 @@
                 <div class="inicio">
                     <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                     <div class="alinhar">
-                    <li><a href="#" class="title">Publicações</a></li>
+                    <li><a href="#">Publicações</a></li>
                         <ul class="post-categories">
                             <li>
                             <?php
@@ -39,7 +41,7 @@
                             <?php the_content(); ?>
                         </article>
                         <section class="conteudo" style="">
-
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </section>
                         <div class="description">
                             <div class="dtitle">Por <?php the_author(); ?></div>
