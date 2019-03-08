@@ -20,7 +20,7 @@
                                     $child = $cat->term_taxonomy_id;
                                 }
                             }
-                            echo get_category_parents( $child, TRUE, '</li> <li>' );
+                             get_category_parents( $child, TRUE, '</li> <li>' );
                             ?>
                             </li>
                         </ul>
