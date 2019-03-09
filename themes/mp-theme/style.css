@@ -580,6 +580,11 @@ header li a:hover {
   span #u_0_6{
   display:none !important;
   }
+  .fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+    width: 100% !important;
+}
 }
 
 p {
