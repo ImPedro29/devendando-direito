@@ -22,6 +22,9 @@ input {
 .whats{
   display:none;
 }
+.icons span {
+  padding: 0.5rem 0 !important;
+}
 
 .fa-whatsapp{
   display:none;
