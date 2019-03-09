@@ -577,6 +577,9 @@ header li a:hover {
  .whats{
     display:block;
   }
+  #u_0_6{
+  display:none !important;
+  }
 }
 
 p {
