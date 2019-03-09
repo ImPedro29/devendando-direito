@@ -1,4 +1,3 @@
-<?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
 <?php get_header(); ?>
 <?php $post = $posts[0]; ?>
 <?php if (is_category('blog')) { ?>
@@ -55,6 +54,7 @@
             </div>
    
 <?php } else if (is_category()) { ?>
+    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
     <div class="principal">
         <div class="container">
             <div class="cbox">
