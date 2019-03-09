@@ -20,6 +20,9 @@ input {
   color: #8a8888;
 }
 
+.fa-whatsapp{
+  display:none;
+}
 
 input[type="text"] {
   -webkit-box-sizing: border-box;
@@ -566,6 +569,9 @@ header li a:hover {
   }
   .box:last-child {
     display: block;
+  }
+  .fa-whatsapp{
+    display:block;
   }
 }
 
