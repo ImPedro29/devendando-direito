@@ -34,7 +34,8 @@
                         <div class="title"><?php the_title(); ?>
                     <div class="icons">
                    <a href="#"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
-                    <a href="#"><i class="fab fa-linkedin" style="color:#0274b3;margin-right:0.4rem;"></i></a>
+                   <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+<script type="IN/Share" data-url="https://www.linkedin.com"></script>
                     <a href="#"><i class="fab fa-instagram" style="color:#8e49c6;margin-right:0.4rem;"></i></a></div></div>
                         <h1 style="display: none;"><?php the_title(); ?></h1>
                         <article>
