@@ -166,9 +166,7 @@ $args = array(
     'order' => 'ASC');
     $query = new WP_Query( $args );
     while ( $query->have_posts() ) : $query->the_post();?>
-                                <div class="box">
                                     <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                                </div>
     
                     <?php        
                            endwhile;?></div><?php } ?>
