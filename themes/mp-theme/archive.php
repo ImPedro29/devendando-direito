@@ -8,7 +8,7 @@
                     <div class="inicio">
                             <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                         <div class="alinhar">
-                            <li><a href="">&nbsp;Publicações</a></li>
+                            <li><a href="/category/blog">&nbsp;Publicações</a></li>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                     <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                     <div class="alinhar">
                         <li><a href="/">INICIO ></a></li>
-                        <li><a href="/significados">SIGNIFICADOS</a></li>
+                        <li><a href="/category/significados">SIGNIFICADOS</a></li>
                         </li>
                     </div>
                 </div>
@@ -155,13 +155,13 @@
                             <?php } $cont++; endwhile; }else{?>
 
 <div class="box" style="display:block;"><?php
-
+wp_reset_query();
 $args = array(
     'post_type' => 'post',
     'category_name' => $categoryName,
-    'posts_per_page' => 50,
     'orderby' => 'name',
     'order' => 'ASC');
+    $query = new WP_Query( $args );
     while ( $query->have_posts() ) : $query->the_post();?>
                             
                                     <li style="padding:0.2rem;height:2.5rem;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
@@ -170,8 +170,7 @@ $args = array(
                            endwhile;?></div><?php } ?>
                     </div>
                 </div>
-
-               
+                <?php if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $query)); } ?>
             </div>
             <?php
             if($cont>=9){
