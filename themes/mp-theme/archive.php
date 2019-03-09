@@ -159,7 +159,6 @@
 $args = array(
     'post_type' => 'post',
     'category_name' => $categoryName,
-    'posts_per_page' => 50,
     'orderby' => 'name',
     'order' => 'ASC');
     while ( $query->have_posts() ) : $query->the_post();?>
@@ -170,7 +169,7 @@ $args = array(
                            endwhile;?></div><?php } ?>
                     </div>
                 </div>
-                <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+                <?php if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $query)); } ?>
             </div>
             <?php
             if($cont>=9){
