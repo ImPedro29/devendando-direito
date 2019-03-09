@@ -14,22 +14,7 @@
                         <ul class="post-categories">
                             <li>
                             <?php
-                            function get_category_parents( $id, $link = false, $separator = '/', $nicename = false, $deprecated = array() ) {
- 
-                                if ( ! empty( $deprecated ) ) {
-                                    _deprecated_argument( __FUNCTION__, '4.8.0' );
-                                }
-                             
-                                $format = $nicename ? 'slug' : 'name';
-                             
-                                $args = array(
-                                    'separator' => $separator,
-                                    'link'      => $link,
-                                    'format'    => $format,
-                                );
-                             
-                                return get_term_parents_list( $id, 'category', $args );
-                            }
+                 echo get_category_parents( $cat, true, ' &raquo; ' ); 
                            
                             ?>
                             </li>
