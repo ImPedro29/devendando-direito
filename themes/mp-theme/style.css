@@ -65,7 +65,6 @@ button {
 }
 
 .aside {
-  display: flex;
   flex-wrap: wrap;
   width: 20%;
   max-height: max-content;
@@ -462,7 +461,6 @@ header li a:hover {
   .aside {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
     flex-direction: column;
     margin: auto;
   }
