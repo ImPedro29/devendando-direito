@@ -15,8 +15,7 @@
                             <li>
                             <?php
                             echo the_title();
-                           echo wp_get_post_parent_id(); 
-                           $post_7 = get_post( 7 ); 
+                           $post_7 = get_post(0); 
                            $title = $post_7->post_title;
                            echo $title;
                             ?>
