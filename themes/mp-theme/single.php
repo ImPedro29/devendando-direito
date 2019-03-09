@@ -14,7 +14,7 @@
                         <ul class="post-categories">
                             <li>
                             <?php
-                 echo strtolower(get_category_parents( $cat, true, ' &raquo; ' )); 
+                 echo (string) get_category_parents( $cat, true, ' &raquo; ' ); 
                            
                             ?>
                             </li>
