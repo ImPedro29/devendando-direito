@@ -78,7 +78,7 @@
                         if($categoryName=="significado"){
                             $categoryName="significados";
                         }
-                        wp_reset_query();
+
                         $query = new WP_Query(  array(
                             'post_type' => 'post',
                             'category_name' => $categoryName,
