@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="Arrumando paginacao mobile,">
+    <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/css/post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/css/posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/css/posts.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
               <folding>
                 <element signature="e#57#8700#0#PHP" />
               </folding>
@@ -70,6 +68,7 @@
       <find>widget</find>
       <find>footer</find>
       <find>.cbox</find>
+      <find>$post</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: 'Lato', sans-serif;</replace>
@@ -116,7 +115,7 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="163" />
+    <option name="x" value="170" />
     <option name="y" value="27" />
     <option name="width" value="1221" />
     <option name="height" value="662" />
@@ -198,21 +197,7 @@
       <workItem from="1551763734458" duration="7000" />
       <workItem from="1551837165885" duration="10000" />
       <workItem from="1551999089703" duration="5415000" />
-      <workItem from="1552090155675" duration="6182000" />
-    </task>
-    <task id="LOCAL-00002" summary="Testando Search.php 02">
-      <created>1551036575619</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1551036575619</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Testando Search.php 03">
-      <created>1551036805481</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1551036805481</updated>
+      <workItem from="1552090155675" duration="6625000" />
     </task>
     <task id="LOCAL-00004" summary="Testando Search.php 04">
       <created>1551037318836</created>
@@ -543,11 +528,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552097241094</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Arrumando paginacao mobile, arrumando bug nos significados">
+      <created>1552097959613</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1552097959613</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Arrumando paginacao outras paginas">
+      <created>1552098271491</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1552098271491</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47116000" />
+    <option name="totallyTimeSpent" value="47559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -579,8 +578,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrumando categorias" />
-    <MESSAGE value="Arrumando categorias - slug" />
     <MESSAGE value="as" />
     <MESSAGE value="asasas" />
     <MESSAGE value="aasdasdsad" />
@@ -604,7 +601,9 @@
     <MESSAGE value="Arrumando paginas" />
     <MESSAGE value="Arrumando paginacao" />
     <MESSAGE value="Estilo da paginacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Estilo da paginacao" />
+    <MESSAGE value="Arrumando paginacao mobile, arrumando bug nos significados" />
+    <MESSAGE value="Arrumando paginacao outras paginas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando paginacao outras paginas" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -717,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
           <folding>
             <element signature="e#57#8700#0#PHP" />
           </folding>

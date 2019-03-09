@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-<?php $post = $posts[0]; ?>
 <?php if (is_category('blog')) { ?>
     <div class="principal">
         <div class="container">
