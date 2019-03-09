@@ -156,10 +156,12 @@
 
 <div class="box" style="display:block;"><?php
 wp_reset_query();
+$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 $args = array(
     'post_type' => 'post',
     'category_name' => $categoryName,
     'orderby' => 'name',
+    'paged' => $paged,
     'order' => 'ASC');
     $query = new WP_Query( $args );
     while ( $query->have_posts() ) : $query->the_post();?>
