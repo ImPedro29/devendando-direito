@@ -36,7 +36,7 @@
                     <a href="whatsapp://send?text=http://desvendandodireito.com.br" data-action="share/whatsapp/share"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
 
                    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
-<script type="IN/Share" data-url="https://www.linkedin.com"></script>
+<script type="IN/Share" data-url="https://www.linkedin.com" style="padding:0.5rem 0;"></script>
                     <a href="#"><i class="fab fa-instagram" style="color:#8e49c6;margin-right:0.4rem;"></i></a></div></div>
                         <h1 style="display: none;"><?php the_title(); ?></h1>
                         <article>
