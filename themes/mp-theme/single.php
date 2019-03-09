@@ -11,7 +11,7 @@
                 <div class="inicio">
                     <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                     <div class="alinhar">
-                    <li><a href="#">Publicações</a></li>
+                    <li><a href="#" class="title" style="font-size:0.8em;">Publicações</a></li>
                         <ul class="post-categories">
                             <li>
                             <?php
@@ -33,7 +33,8 @@
                     <div class="conteudo">
                         <div class="title"><?php the_title(); ?>
                     <div class="icons">
-                   <a href="#"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
+                    <a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
+
                    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
 <script type="IN/Share" data-url="https://www.linkedin.com"></script>
                     <a href="#"><i class="fab fa-instagram" style="color:#8e49c6;margin-right:0.4rem;"></i></a></div></div>
