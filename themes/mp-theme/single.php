@@ -15,7 +15,10 @@
                             <li>
                             <?php
                             echo the_title();
-                           $post_7 = get_post(0); 
+                            global $post;
+                            $direct_parent = $post->post_parent;
+                            echo $direct_parent;
+                           $post_7 = get_post( 7 ); 
                            $title = $post_7->post_title;
                            echo $title;
                             ?>
