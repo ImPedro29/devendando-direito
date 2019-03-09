@@ -18,7 +18,11 @@ a {
 }
 
 
+.path{
+  font-size:1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
 input {
   font-size: 1.2rem;
   padding-left: 10px;
