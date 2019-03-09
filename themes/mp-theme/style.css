@@ -585,6 +585,9 @@ header li a:hover {
     position: relative;
     width: 100% !important;
 }
+span#u_0_6 {
+  display: none;
+}
 }
 
 p {
