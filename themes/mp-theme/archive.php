@@ -54,9 +54,7 @@
             </div>
    
 <?php } else if (is_category()) { ?>
-    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
-    echo "<script> alert('$paged'); </script>"
-    ?>
+    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
     <div class="principal">
         <div class="container">
             <div class="cbox">
@@ -138,8 +136,8 @@
                         $args = array(
                             'post_type' => 'post',
                             'category_name' => $category->name,
-                            'posts_per_page' => 50,
                             'orderby' => 'name',
+                            'paged' => $paged,
                             'order' => 'ASC');
 
                         $query = new WP_Query( $args );
@@ -158,14 +156,12 @@
                             <?php } $cont++; endwhile; }else{?>
 
 <div class="box" style="display:block;"><?php
-wp_reset_query();
 $args = array(
     'post_type' => 'post',
     'category_name' => $categoryName,
     'orderby' => 'name',
     'paged' => $paged,
     'order' => 'ASC');
-    $query = new WP_Query( $args );
     while ( $query->have_posts() ) : $query->the_post();?>
                             
                                     <li style="padding:0.2rem;height:2.5rem;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
