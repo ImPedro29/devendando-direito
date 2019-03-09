@@ -161,6 +161,7 @@ $args = array(
     'category_name' => $categoryName,
     'orderby' => 'name',
     'order' => 'ASC');
+    $query = new WP_Query( $args );
     while ( $query->have_posts() ) : $query->the_post();?>
                             
                                     <li style="padding:0.2rem;height:2.5rem;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
