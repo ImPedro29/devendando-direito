@@ -54,7 +54,9 @@
             </div>
    
 <?php } else if (is_category()) { ?>
-    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
+    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+    echo "<script> alert('$paged'); </script>"
+    ?>
     <div class="principal">
         <div class="container">
             <div class="cbox">
