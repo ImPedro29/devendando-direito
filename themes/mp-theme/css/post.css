@@ -70,6 +70,33 @@ article h2{
 .textwidget p{
   margin: 0 !important;
 }
+.wp-pagenavi{
+  border-radius: 3px;
+  padding: 15px;
+  margin: 0 10px 3vh 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wp-pagenavi a{
+  text-transform: uppercase;
+  color: #ee7c12;
+  background: #fff;
+  border-radius: 3px;
+  padding: 5px 10px;
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  margin: 0 5px 0 5px;
+}
+
+.wp-pagenavi span.current{
+  padding: 5px 10px;
+  margin: 0 5px 0 5px;
+  color:#fff;
+  background:  #ee7c12;
+  font-weight: bold;
+  border-radius: 3px;
+}
 
 @media screen and (max-width: 1024px) {
 }
