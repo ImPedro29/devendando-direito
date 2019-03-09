@@ -32,7 +32,10 @@
                 <div class="posts">
                     <div class="conteudo">
                         <div class="title"><?php the_title(); ?>
-                    <div class="icons"><a href="#"><i class="fab fa-facebook" style="color:#4064ac;margin-right:0.4rem;"></i></a>
+                    <div class="icons">
+                    <div data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+                     <a href="#"><i class="fab fa-facebook" style="color:#4064ac;margin-right:0.4rem;"></i></a>
+                    </a></div>
                    <a href="#"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
                     <a href="#"><i class="fab fa-linkedin" style="color:#0274b3;margin-right:0.4rem;"></i></a>
                     <a href="#"><i class="fab fa-instagram" style="color:#8e49c6;margin-right:0.4rem;"></i></a></div></div>
