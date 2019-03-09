@@ -8,7 +8,7 @@
                     <div class="inicio">
                             <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                         <div class="alinhar">
-                            <li><a href="">&nbsp;Publicações</a></li>
+                            <li><a href="/category/blog">&nbsp;Publicações</a></li>
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                     <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                     <div class="alinhar">
                         <li><a href="/">INICIO ></a></li>
-                        <li><a href="/significados">SIGNIFICADOS</a></li>
+                        <li><a href="/category/significados">SIGNIFICADOS</a></li>
                         </li>
                     </div>
                 </div>
@@ -170,8 +170,7 @@ $args = array(
                            endwhile;?></div><?php } ?>
                     </div>
                 </div>
-
-               
+                <?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
             </div>
             <?php
             if($cont>=9){
