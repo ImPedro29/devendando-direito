@@ -13,12 +13,11 @@
                         <ul class="post-categories">
                             <li>
                             <?php
-                 
-                 global $post;
-                 // call parent: http://codex.wordpress.org/Function_Reference/get_post
-                 $parent = get_post( $post->post_parent );
-             
-                 echo "<h2>{$post->post_title} is a child of {$parent->post_title}";
+                            global $post;
+               $category_detail=get_the_category($post->ID);//$post->ID
+               foreach($category_detail as $cd){
+               echo $cd->cat_name;
+               }
                             ?>
                             </li>
                         </ul>
