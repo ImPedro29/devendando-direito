@@ -155,7 +155,7 @@
                             <?php } $cont++; endwhile; }else{?>
 
 <div class="box" style="display:block;"><?php
-
+wp_reset_query();
 $args = array(
     'post_type' => 'post',
     'category_name' => $categoryName,
