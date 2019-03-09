@@ -11,19 +11,10 @@
                 <div class="inicio">
                     <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                     <div class="alinhar">
-                    <li><a href="#" class="title" style="font-size:2em;border:none;">Publicações</a></li>
                         <ul class="post-categories">
                             <li>
                             <?php
-
-                            $cats = get_the_category(); //retrieve cats for post
-
-                            foreach ($cats as $cat) { //go thru to find child one - means cat which has specified parent id
-                                if ($cat->category_parent != 0) {
-                                    $child = $cat->term_taxonomy_id;
-                                }
-                            }
-                             get_category_parents( $child, TRUE, '</li> <li>' );
+                                echo get_category_parents( $cat, true, ' &raquo; ' ); 
                             ?>
                             </li>
                         </ul>
