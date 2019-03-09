@@ -300,4 +300,14 @@ fieldset {
   .box li:last-child{
     border:none;
   }
+
+  .wp-pagenavi a{
+    padding: 3px 3px;
+    margin: 0 2px 0 2px;
+  }
+
+  .wp-pagenavi span.current{
+    padding: 5px 5px;
+    margin: 0 2px 0 2px;
+  }
 }

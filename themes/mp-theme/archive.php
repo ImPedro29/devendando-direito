@@ -78,25 +78,27 @@
                         if($categoryName=="significado"){
                             $categoryName="significados";
                         }
+                        wp_reset_query();
                         $query = new WP_Query(  array(
                             'post_type' => 'post',
                             'category_name' => $categoryName,
                             'posts_per_page' => 9,
                         ) );
                         $cont = 0;
+                        mb_internal_encoding("UTF-8");
                         while ( $query->have_posts() ) : $query->the_post();?>
                             <?php if($cont == 0){  ?>
                                 <div class="box">
-                                    <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
+                                    <li><a href="<?php the_permalink(); ?>"><?php echo mb_substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                             <?php }else if($cont % 3 == 0 && $cont < 8){ ?>
                                 </div>
                                 <div class="box">
-                                    <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
+                                    <li><a href="<?php the_permalink(); ?>"><?php echo mb_substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                             <?php }else if($cont == 8){ ?>
-                                    <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
+                                    <li><a href="<?php the_permalink(); ?>"><?php echo mb_substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                                 </div>
                             <?php } else{ ?>
-                                <li><a href="<?php the_permalink(); ?>"><?php echo substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
+                                <li><a href="<?php the_permalink(); ?>"><?php echo mb_substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                         <?php } $cont++; endwhile;
 
                         while ($cont < 8){
