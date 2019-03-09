@@ -15,7 +15,7 @@
                             <li>
                             <?php
                             echo the_title();
-                            echo get_the_category_parents();
+                            echo get_category_parents();
                            
                             ?>
                             </li>
