@@ -33,7 +33,7 @@
                     <div class="conteudo">
                         <div class="title"><?php the_title(); ?>
                     <div class="icons">
-                    <a href="whatsapp://send?text=<?php get_permalink();?>" data-action="share/whatsapp/share" class="whats"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
+                    <a href="whatsapp://send?text=<?php get_permalink($post->ID);?>" data-action="share/whatsapp/share" class="whats"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
 
                    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
 <script type="IN/Share" data-url="https://www.linkedin.com" style="padding:0.5rem 0;"></script>
