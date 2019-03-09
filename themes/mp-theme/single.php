@@ -32,6 +32,8 @@
                 <div class="posts">
                     <div class="conteudo">
                         <div class="title"><?php the_title(); ?>
+                        <?php echo get_permalink();?>
+                       
                     <div class="icons">
                     <a href="whatsapp://send?text=<?php get_permalink($post->ID);?>" data-action="share/whatsapp/share" class="whats"><i class="fab fa-whatsapp" style="color:#169552;margin-right:0.4rem;"></i></a>
 
