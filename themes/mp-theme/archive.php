@@ -142,19 +142,9 @@
                             'order' => 'ASC');
 
                         $query = new WP_Query( $args );
-                        $cont = 0;
-                        $num = intval($category->category_count / 3);
                         while ( $query->have_posts() ) : $query->the_post();?>
-                            <?php if($cont == $category->category_count) { ?>
-                                </div>
-                                <div class="box">
-                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                            <?php }else if($cont == 0){ ?>
-                                <div class="box">
-                                    <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                            <?php }else{ ?>
-                                <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                            <?php } $cont++; endwhile; }else{?>
+                            <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                            <?php endwhile; }else{?>
 
 <div class="box" style="display:block;"><?php
 wp_reset_query();
