@@ -26,9 +26,6 @@ input {
   padding: 0.40rem 0 !important;
 }
 
-.fa-whatsapp{
-  display:none;
-}
 
 input[type="text"] {
   -webkit-box-sizing: border-box;
