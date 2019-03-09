@@ -54,6 +54,7 @@
             </div>
    
 <?php } else if (is_category()) { ?>
+    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
     <div class="principal">
         <div class="container">
             <div class="cbox">
@@ -156,7 +157,6 @@
 
 <div class="box" style="display:block;"><?php
 wp_reset_query();
-$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 $args = array(
     'post_type' => 'post',
     'category_name' => $categoryName,
