@@ -142,9 +142,14 @@
                             'order' => 'ASC');
 
                         $query = new WP_Query( $args );
+                        ?>
+                        <div class="box" style="display:block;">
+                            <?php
                         while ( $query->have_posts() ) : $query->the_post();?>
                             <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-                            <?php endwhile; }else{?>
+                            <?php endwhile; ?>
+                                </div>
+                            <?php }else{?>
 
 <div class="box" style="display:block;"><?php
 wp_reset_query();
