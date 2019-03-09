@@ -14,7 +14,11 @@
                             <li>
                             <?php
                  
-                           
+                 global $post;
+                 // call parent: http://codex.wordpress.org/Function_Reference/get_post
+                 $parent = get_post( $post->post_parent );
+             
+                 echo "<h2>{$post->post_title} is a child of {$parent->post_title}";
                             ?>
                             </li>
                         </ul>
