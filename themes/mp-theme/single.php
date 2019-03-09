@@ -14,7 +14,8 @@
                         <ul class="post-categories">
                             <li>
                             <?php
-                            get_category_parents( $cat, true, ' &raquo; ' ); 
+                            echo the_title();
+                           echo wp_get_post_parent_id(); 
                             ?>
                             </li>
                         </ul>
