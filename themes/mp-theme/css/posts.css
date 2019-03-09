@@ -236,7 +236,8 @@ fieldset {
     justify-content: space-between;
   }
   .aside {
-    float: left;
+    display:flex;
+    flex-direction: column;
     width: 94vw;
     margin-top: 5px;
     margin-left: 0;
