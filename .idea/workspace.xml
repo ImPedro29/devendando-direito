@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="90" column="91" selection-start-line="90" selection-start-column="91" selection-end-line="90" selection-end-column="91" />
+              <caret line="171" column="44" lean-forward="true" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
               <folding>
                 <element signature="e#57#8700#0#PHP" />
               </folding>
@@ -196,28 +197,7 @@
       <workItem from="1551763734458" duration="7000" />
       <workItem from="1551837165885" duration="10000" />
       <workItem from="1551999089703" duration="5415000" />
-      <workItem from="1552090155675" duration="7100000" />
-    </task>
-    <task id="LOCAL-00006" summary="Testando Search.php 06">
-      <created>1551038205359</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1551038205359</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Arrumando widget para post e tirando justify">
-      <created>1551050542955</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1551050542955</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Tirando Justify article post">
-      <created>1551050742167</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1551050742168</updated>
+      <workItem from="1552090155675" duration="7673000" />
     </task>
     <task id="LOCAL-00009" summary="Tirando Justify article post">
       <created>1551050758948</created>
@@ -541,11 +521,32 @@
       <option name="project" value="LOCAL" />
       <updated>1552098740499</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Arrumando bug significados">
+      <created>1552098855851</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1552098855851</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Arrumando bug significados">
+      <created>1552099022326</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1552099022327</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Arrumando bug das outras categorias">
+      <created>1552099328393</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1552099328393</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48034000" />
+    <option name="totallyTimeSpent" value="48607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -577,7 +578,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="asasas" />
     <MESSAGE value="aasdasdsad" />
     <MESSAGE value="dsadasdasdad" />
     <MESSAGE value="sadasdasd" />
@@ -602,7 +602,8 @@
     <MESSAGE value="Arrumando paginacao mobile, arrumando bug nos significados" />
     <MESSAGE value="Arrumando paginacao outras paginas" />
     <MESSAGE value="Arrumando bug significados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando bug significados" />
+    <MESSAGE value="Arrumando bug das outras categorias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando bug das outras categorias" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -716,7 +717,7 @@
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="90" column="91" selection-start-line="90" selection-start-column="91" selection-end-line="90" selection-end-column="91" />
+          <caret line="171" column="44" lean-forward="true" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
           <folding>
             <element signature="e#57#8700#0#PHP" />
           </folding>
