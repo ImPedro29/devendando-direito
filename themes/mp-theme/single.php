@@ -15,12 +15,8 @@
                             <li>
                             <?php
                             echo the_title();
-                            global $post;
-                            $direct_parent = $post->post_parent;
-                            echo $direct_parent;
-                           $post_7 = get_post( 7 ); 
-                           $title = $post_7->post_title;
-                           echo $title;
+                            echo get_the_category_parents();
+                           
                             ?>
                             </li>
                         </ul>
