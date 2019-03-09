@@ -16,10 +16,10 @@
                             global $post;
                $category_detail=get_the_category($post->ID);//$post->ID
                foreach($category_detail as $cd){
-               echo $cd->cat_name ;
+               echo $cd->cat_name.">";
               
                }
-               echo ">".the_title();
+               echo the_title();
                             ?>
                             </li>
                         </ul>
