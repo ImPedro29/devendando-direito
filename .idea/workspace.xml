@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="157" selection-start-line="157" selection-end-line="157" />
+            <state>
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
               <folding>
                 <element signature="e#57#8700#0#PHP" />
               </folding>
@@ -185,7 +185,7 @@
       <workItem from="1551763734458" duration="7000" />
       <workItem from="1551837165885" duration="10000" />
       <workItem from="1551999089703" duration="5415000" />
-      <workItem from="1552090155675" duration="1695000" />
+      <workItem from="1552090155675" duration="2964000" />
     </task>
     <task id="LOCAL-00001" summary="Testando Search.php 01">
       <created>1551036169441</created>
@@ -481,11 +481,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552091590397</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Arrumando paginacao">
+      <created>1552091858780</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1552091858780</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Arrumando paginacao">
+      <created>1552094130609</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1552094130609</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42629000" />
+    <option name="totallyTimeSpent" value="43898000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -655,8 +669,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
           <folding>
             <element signature="e#57#8700#0#PHP" />
           </folding>

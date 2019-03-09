@@ -1,3 +1,4 @@
+<?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
 <?php get_header(); ?>
 <?php $post = $posts[0]; ?>
 <?php if (is_category('blog')) { ?>
@@ -156,7 +157,6 @@
 
 <div class="box" style="display:block;"><?php
 wp_reset_query();
-$paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 $args = array(
     'post_type' => 'post',
     'category_name' => $categoryName,
