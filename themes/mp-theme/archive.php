@@ -88,7 +88,7 @@
                         while ( $query->have_posts() ) : $query->the_post();?>
                             <?php if($cont == 0){  ?>
                                 <div class="box">
-                                    <li><a href="<?php the_permalink(); echo $categoryName; ?>"><?php echo mb_substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
+                                    <li><a href="<?php the_permalink(); ?>"><?php echo mb_substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                             <?php }else if($cont % 3 == 0 && $cont < 8){ ?>
                                 </div>
                                 <div class="box">
@@ -136,7 +136,7 @@
                         wp_reset_query();
                         $args = array(
                             'post_type' => 'post',
-                            'category_name' => $category->name,
+                            'category_name' => $categoryName,
                             'orderby' => 'name',
                             'paged' => $paged,
                             'order' => 'ASC');
