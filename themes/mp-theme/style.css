@@ -24,6 +24,8 @@ input {
 }
 .icons span {
   padding: 0.40rem 0 !important;
+}.icons{
+  display: flex;
 }
 
 
