@@ -3,7 +3,6 @@
 <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/mp-theme/css/post.css" />
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2"></script>
-
 <div class="principal">
     <div class="container">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -37,8 +36,7 @@
                             <?php the_content(); ?>
                         </article>
                         <section class="conteudo" style="">
-                        <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2"></script>
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </section>
                         <div class="description">
                             <div class="dtitle">Por <?php the_author(); ?></div>
