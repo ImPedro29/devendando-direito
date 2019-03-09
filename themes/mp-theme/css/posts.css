@@ -311,4 +311,7 @@ fieldset {
     padding: 5px 5px;
     margin: 0 2px 0 2px;
   }
+  span#u_0_6 {
+    display: none !important;
+  }
 }
