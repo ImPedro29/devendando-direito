@@ -19,6 +19,9 @@ input {
   font-family: Cambria, Georgia, serif !important;
   color: #8a8888;
 }
+.whats{
+  display:none;
+}
 
 .fa-whatsapp{
   display:none;
@@ -570,7 +573,7 @@ header li a:hover {
   .box:last-child {
     display: block;
   }
-  .fa-whatsapp{
+ .whats{
     display:block;
   }
 }
