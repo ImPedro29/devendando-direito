@@ -3,7 +3,7 @@
             class="email"
             style="border-bottom:1px solid rgba(0, 0, 0, 0.2);height:25px;"
     >
-        <p>admin@desvendandodireito.com.br</p>
+        <p>contato@desvendandodireito.com.br</p>
     </div>
     <a
             href="/politica-de-uso"

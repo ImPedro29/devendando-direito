@@ -21,8 +21,7 @@
 
 .conteudo {
   padding: 0 35px !important;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
 }
 
 article {

@@ -30,7 +30,7 @@
 
             <form action="/" method="get" class="busca">
                 <div class="mini-logo">
-                    <img src="/wp-content/themes/mp-theme/img/logo-mini.png" alt="" />
+                    <a href="/"><img src="/wp-content/themes/mp-theme/img/logo-mini.png" alt="" /></a>
                 </div>
                 <input type="text"
                        placeholder="O que você está procurando?"
