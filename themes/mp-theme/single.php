@@ -22,7 +22,7 @@
               
                }?>
                </a>
-               <a href="<?the_permalink();?>"><?php
+               <a href="https://desvendandodireito.com.br/category/significados/"><?php
                echo the_title();
                             ?>
                            </a>
