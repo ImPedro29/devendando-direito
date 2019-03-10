@@ -25,7 +25,9 @@
                         echo $cd->cat_name." > ";
                         
                     }else{
-                   ?><a href="<?php echo "/category/significados/".strtolower($cd->cat_name); ?>"><?php
+                        $nameLink=strtolower($cd->cat_name);
+                        $newName=str_replace(" ","-",$nameLink);       
+                   ?><a href="<?php echo "/category/significados/".$newName; ?>"><?php
                    echo $cd->cat_name." > ";
                     }
               
