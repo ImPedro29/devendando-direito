@@ -19,14 +19,15 @@
                    if($cd->cat_name=="Artigos"){
                     ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
                     echo $cd->cat_name." > ";
-                   }else{
-                       if($cd->cat_name=="Significado"){
+                   }
+                    else if($cd->cat_name=="Significado"){
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                         echo $cd->cat_name." > ";
-                       }
+                        
+                    }else{
                    ?><a href="<?php echo "/".$cd->cat_name ?>"><?php
                    echo $cd->cat_name." > ";
-                   }
+                    }
               
                }?>
                </a>
