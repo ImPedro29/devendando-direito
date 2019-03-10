@@ -16,10 +16,22 @@
                             global $post;
                $category_detail=get_the_category($post->ID);//$post->ID
                foreach($category_detail as $cd){
-                   ?><a href="<?php echo "/".$cd->cat_name ?>"><?php
+                   
+                   ?><a href="<?php 
+                   if($cd->cat_name=="SIGNIFICADO"){
+                echo "https://desvendandodireito.com.br/category/significados/";
+                   }
+                else{
+                    if($cat->cat_name=="ARTIGO"){
+                        echo "https://desvendandodireito.com.br/category/blog/";
+                    }else{
+                    echo "/".strtolower($cd->cat_name);
+                    }
+                }   
+                }?>"><?php
                echo $cd->cat_name." > ";
               
-               }?>
+               ?>
                </a>
                <a href="<?the_permalink();?>"><?php
                echo the_title();
