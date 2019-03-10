@@ -20,8 +20,11 @@
                     ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                     echo $cd->cat_name." > ";
                    }else{
-                   ?><a href="<?php echo "/".$cd->cat_name ?>"><?php
-                   echo $cd->cat_name." > ";
+                       if($cd->cat_name=="SIGNIFICADO"){
+                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
+                   echo $cd->cat_name." > "; ?><?php
+                       }
+                  
                    }
               
                }?>
