@@ -25,7 +25,7 @@
                         echo $cd->cat_name." > ";
                         
                     }else{
-                   ?><a href="<?php echo "/".$cd->cat_name ?>"><?php
+                   ?><a href="<?php echo "/".strtolower($cd->cat_name); ?>"><?php
                    echo $cd->cat_name." > ";
                     }
               
