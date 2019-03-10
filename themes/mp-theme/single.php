@@ -21,10 +21,11 @@
                     echo $cd->cat_name." > ";
                    }else{
                        if($cd->cat_name=="SIGNIFICADO"){
-                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
-                   echo $cd->cat_name." > "; ?><?php
+                       ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
+                        echo $cd->cat_name." > ";
                        }
-                  
+                   ?><a href="<?php echo "/".$cd->cat_name ?>"><?php
+                   echo $cd->cat_name." > ";
                    }
               
                }?>
