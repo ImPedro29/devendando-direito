@@ -22,7 +22,7 @@
                 echo "https://desvendandodireito.com.br/category/significados/";
                    }
                 else{
-                    if($cat->cat_name=="ARTIGO"){
+                    if($cat->cat_name=="ARTIGOS"){
                         echo "https://desvendandodireito.com.br/category/blog/";
                     }else{
                     echo "/".strtolower($cd->cat_name);
