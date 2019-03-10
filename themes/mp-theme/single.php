@@ -16,11 +16,11 @@
                             global $post;
                $category_detail=get_the_category($post->ID);//$post->ID
                foreach($category_detail as $cd){
-                   if($cd->cat_name=="ARTIGOS"){
-                    ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
+                   if($cd->cat_name=="Artigos"){
+                    ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
                     echo $cd->cat_name." > ";
                    }else{
-                       if($cd->cat_name=="SIGNIFICADO"){
+                       if($cd->cat_name=="Significado"){
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                         echo $cd->cat_name." > ";
                        }
