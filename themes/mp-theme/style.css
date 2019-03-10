@@ -32,9 +32,12 @@ input {
 .whats{
   display:none;
 }
-.icons span {
-  padding: 0.40rem 0 !important;
-}.icons{
+
+.icons span{
+padding: 0.10rem 0 !important;
+    padding-right: 0.2rem !important;
+  }
+.icons{
   display: flex;
 }
 
@@ -597,6 +600,9 @@ header li a:hover {
 }
 span#u_0_6 {
   display: none;
+}
+.icons span {
+  padding: 0.40rem 0 !important;
 }
 }
 
