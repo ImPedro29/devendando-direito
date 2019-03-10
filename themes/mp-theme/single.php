@@ -16,7 +16,7 @@
                             global $post;
                $category_detail=get_the_category($post->ID);//$post->ID
                foreach($category_detail as $cd){
-                   if($cd->category_name=="ARTIGOS"){
+                   if($cd->cat_name=="ARTIGOS"){
                     ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                     echo $cd->cat_name." > ";
                    }else{
