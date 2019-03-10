@@ -16,11 +16,15 @@
                             global $post;
                $category_detail=get_the_category($post->ID);//$post->ID
                foreach($category_detail as $cd){
+                   ?><a href="<?php echo "/".$cd->cat_name ?>"><?php
                echo $cd->cat_name." > ";
               
-               }
+               }?>
+               </a>
+               <a href="<?the_permalink();?>"><?php
                echo the_title();
                             ?>
+                           </a>
                             </li>
                         </ul>
                     </div>
