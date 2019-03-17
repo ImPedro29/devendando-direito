@@ -42,7 +42,7 @@
                    
                     }
               print_r($arrayCategory);
-              echo " o tamanho é:".sizeof($arrayCategory);
+              echo " o tamanho é:".sizeof($cd);
                }?>
                </a>
 
