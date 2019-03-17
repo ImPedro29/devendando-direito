@@ -20,12 +20,13 @@
                    if($cd->cat_name=="Artigos"){
                     ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
                     echo $cd->cat_name;
+                    $contador++;
                    }
                     else if($cd->cat_name=="Significado"){
                         
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                         echo $cd->cat_name;
-                        if($contador>0){
+                        if($contador==0){
                             echo ">";
                         }
                         $contador++;
@@ -36,6 +37,7 @@
                         $newName=str_replace(" ","-",$nameLink);       
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
                    echo $cd->cat_name.">";
+                   $contador++;
                     }
               
                }?>
