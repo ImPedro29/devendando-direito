@@ -56,7 +56,7 @@
                    $contador++;
                    
                     }
-                    echo end($cd);
+                   
                }?>
                </a>
 
