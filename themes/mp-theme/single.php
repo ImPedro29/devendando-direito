@@ -18,7 +18,7 @@
                foreach($category_detail as $cd){
                    if($cd->cat_name=="Artigos"){
                     ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
-                    echo $cd->cat_name." > ";
+                    echo $cd->cat_name;
                    }
                     else if($cd->cat_name=="Significado"){
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
@@ -28,11 +28,12 @@
                         $nameLink=strtolower($cd->cat_name);
                         $newName=str_replace(" ","-",$nameLink);       
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
-                   echo $cd->cat_name;
+                   echo $cd->cat_name.">";
                     }
               
                }?>
                </a>
+
                             </li>
                         </ul>
                     </div>
