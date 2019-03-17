@@ -57,7 +57,7 @@
                             <?php the_content(); ?>
                         </article>
                         <section class="conteudo" style="">
-                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        <div class="fb-like" data-href="<? echo get_permalink();?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </section>
                         <div class="description">
                             <div class="dtitle">Por <?php the_author(); ?></div>
