@@ -14,19 +14,20 @@
                             <li class="path">
                             <?php
                             global $post;
-                            $contador=0;
+                            
                $category_detail=get_the_category($post->ID);//$post->ID
+               $contador=0;
                foreach($category_detail as $cd){
                    if($cd->cat_name=="Artigos"){
 
                     ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
                     if($cd->category_parent){
-                        echo ">";
+                       
                     }
                     echo $cd->cat_name;
 
                    
-$contador++;
+
 
                    }
                     else if($cd->cat_name=="Significado"){
@@ -34,11 +35,12 @@ $contador++;
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                        if($cd->category_parent){
                         echo ">";
+                        echo "contador = ".$cd->cat_count;
                     } 
                        echo $cd->cat_name;
 
                         $contador++;
-                     
+                        echo "contador = ".$cd->cat_count;
                     }   
                         
                     else{
@@ -47,9 +49,10 @@ $contador++;
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
                    if($cd->category_parent){
                     echo ">";
+                    echo "contador = ".$cd->cat_count;
                 }
                    echo $cd->cat_name;
-              
+                   echo "contador = ".$cd->cat_count;
                    $contador++;
                    
                     }
