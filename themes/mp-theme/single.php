@@ -42,7 +42,7 @@
                    
                     }
               echo " o tamanho é:".sizeof($cd);
-              print_r($cd);
+                    echo $cd->category_count;
                }?>
                </a>
 
