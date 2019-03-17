@@ -21,8 +21,14 @@
                     echo $cd->cat_name;
                    }
                     else if($cd->cat_name=="Significado"){
+                        $contador=0;
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                         echo $cd->cat_name;
+                        if($contador>0){
+                            echo ">";
+                        }
+                        $contador++;
+                      
                         
                     }else{
                         $nameLink=strtolower($cd->cat_name);
