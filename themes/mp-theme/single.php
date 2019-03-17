@@ -18,7 +18,6 @@
                $category_detail=get_the_category($post->ID);//$post->ID
                $contador=0;
                $array=[];
-            echo $category_detail[1]->cat_name;
                foreach($category_detail as $cd){
                    if($cd->cat_name=="Artigos"){
 
@@ -26,8 +25,8 @@
 
                     echo $cd->cat_name;
 
-                   
 
+                    $contador++;
 
                    }
                     else if($cd->cat_name=="Significado"){
@@ -35,9 +34,11 @@
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
 
                        echo $cd->cat_name;
-                     
-                      echo ">";
-                     
+                       if($category_detail[$contador+1]->cat_name){
+                             echo ">";
+                            
+                    }
+                     $contador++;
     
                     }   
                         
@@ -47,11 +48,13 @@
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
 
                    echo $cd->cat_name;
+                   if($category_detail[$contador+1]->cat_name){
                              echo ">";
-
+                            
                     }
-                   
-               }?>
+                    $contador++;
+               }
+            }?>
                </a>
 
                             </li>
