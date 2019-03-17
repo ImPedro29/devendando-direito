@@ -41,7 +41,6 @@
                    $contador++;
                    
                     }
-              echo " o tamanho é:".sizeof($cd);
                     echo $cd->category_count;
                }?>
                </a>
