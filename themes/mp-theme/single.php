@@ -35,12 +35,12 @@
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                        if($cd->category_parent){
                         echo ">";
-                        echo "contador = ".$cd->cat_count;
+                        echo "contador = ".$cd->category_count;
                     } 
                        echo $cd->cat_name;
 
                         $contador++;
-                        echo "contador = ".$cd->cat_count;
+                        echo "contador = ".$cd->category_count;
                     }   
                         
                     else{
@@ -49,10 +49,10 @@
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
                    if($cd->category_parent){
                     echo ">";
-                    echo "contador = ".$cd->cat_count;
+                    echo "contador = ".$cd->category_count;
                 }
                    echo $cd->cat_name;
-                   echo "contador = ".$cd->cat_count;
+                   echo "contador = ".$cd->category_count;
                    $contador++;
                    
                     }
