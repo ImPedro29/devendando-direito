@@ -100,7 +100,7 @@
                                 <li><a href="<?php the_permalink(); ?>"><?php echo mb_substr(get_the_title(), 0, 16); if (strlen(get_the_title()) > 16) echo "..."; ?></a></li>
                         <?php } $cont++; endwhile;
 
-                        while ($cont < 8){
+                        while ($cont < 9){
                             if($cont % 3 == 0 && $cont != 9 && $cont != 0){
                         ?>
                             </div>
@@ -123,7 +123,7 @@
                                 <?php
                             }
                             $cont++;
-                            }
+                        }
                         ?>
                         </div>
                      </div>
