@@ -22,7 +22,7 @@
                    }
                     else if($cd->cat_name=="Significado"){
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
-                        echo $cd->cat_name." > ";
+                        echo $cd->cat_name;
                         
                     }else{
                         $nameLink=strtolower($cd->cat_name);
