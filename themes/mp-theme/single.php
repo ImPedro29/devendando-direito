@@ -42,6 +42,7 @@
                    
                     }
               echo " o tamanho é:".sizeof($cd);
+              print_r($cd);
                }?>
                </a>
 
