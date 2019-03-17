@@ -236,7 +236,8 @@ fieldset {
     justify-content: space-between;
   }
   .aside {
-    float: left;
+    display:flex;
+    flex-direction: column;
     width: 94vw;
     margin-top: 5px;
     margin-left: 0;
@@ -309,5 +310,8 @@ fieldset {
   .wp-pagenavi span.current{
     padding: 5px 5px;
     margin: 0 2px 0 2px;
+  }
+  span#u_0_6 {
+    display: none !important;
   }
 }

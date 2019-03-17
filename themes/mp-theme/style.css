@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+.IN-3bd69980-1fb4-47f6-b2a6-211e406565ad-1G9ISYhSF8XoOmdcl0yKDu, .IN-3bd69980-1fb4-47f6-b2a6-211e406565ad-1G9ISYhSF8XoOmdcl0yKDu.IN-3bd69980-1fb4-47f6-b2a6-211e406565ad-3uCBSbQNVNf2QjqHe1rfb6 {
+  margin-bottom: 0.2rem !important;
+}
+
 li {
   list-style: none;
 }
@@ -13,6 +17,12 @@ a {
   text-decoration: none;
 }
 
+
+.path{
+  font-size:1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
 input {
   font-size: 1.2rem;
   padding-left: 10px;
@@ -22,8 +32,13 @@ input {
 .whats{
   display:none;
 }
-.icons span {
-  padding: 0.40rem 0 !important;
+
+.icons span{
+padding: 0.10rem 0 !important;
+    padding-right: 0.2rem !important;
+  }
+.icons{
+  display: flex;
 }
 
 
@@ -576,6 +591,20 @@ header li a:hover {
  .whats{
     display:block;
   }
+  span #u_0_6{
+  display:none !important;
+  }
+  .fb_iframe_widget {
+    display: inline-block;
+    position: relative;
+    width: 100% !important;
+}
+span#u_0_6 {
+  display: none;
+}
+.icons span {
+  padding: 0.40rem 0 !important;
+}
 }
 
 p {

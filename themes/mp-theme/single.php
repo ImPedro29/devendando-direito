@@ -1,9 +1,8 @@
 <?php get_header(); ?>
 
 <link rel="stylesheet" type="text/css" media="all" href="/wp-content/themes/mp-theme/css/post.css" />
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2"></script>
-
 <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v3.2"></script>
 <div class="principal">
     <div class="container">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -12,11 +11,32 @@
                     <img src="/wp-content/themes/mp-theme/icons/open-book.svg" style="height:20px" />
                     <div class="alinhar">
                         <ul class="post-categories">
-                            <li>
+                            <li class="path">
                             <?php
-                 
-                           
+                            global $post;
+               $category_detail=get_the_category($post->ID);//$post->ID
+               foreach($category_detail as $cd){
+                   if($cd->cat_name=="Artigos"){
+                    ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
+                    echo $cd->cat_name." > ";
+                   }
+                    else if($cd->cat_name=="Significado"){
+                       ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
+                        echo $cd->cat_name." > ";
+                        
+                    }else{
+                        $nameLink=strtolower($cd->cat_name);
+                        $newName=str_replace(" ","-",$nameLink);       
+                   ?><a href="<?php echo "/category/significados/".$newName?>"><?php
+                   echo $cd->cat_name." > ";
+                    }
+              
+               }?>
+               </a>
+               <a href="<?the_permalink();?>"><?php
+               echo the_title();
                             ?>
+                           </a>
                             </li>
                         </ul>
                     </div>
@@ -37,7 +57,7 @@
                             <?php the_content(); ?>
                         </article>
                         <section class="conteudo" style="">
-                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                         </section>
                         <div class="description">
                             <div class="dtitle">Por <?php the_author(); ?></div>
