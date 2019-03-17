@@ -20,43 +20,38 @@
                    if($cd->cat_name=="Artigos"){
 
                     ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
-                    echo $cd->cat_name;
-
-                    if(end($cd)==0){
-                        echo "";
-                    }else{
+                    if($cd->cat_parent){
                         echo ">";
                     }
+                    echo $cd->cat_name;
+
+                   
 $contador++;
-end($cd);
+
                    }
                     else if($cd->cat_name=="Significado"){
                         
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
-                        echo $cd->cat_name;
-                        $arrayCategory[]=$cd->cat_name;
-                        if(end($cd)==0){
-                            echo "";
-                        }
-                        else{
-                            echo">";
-                        }
+                       if($cd->cat_parent){
+                        echo ">";
+                    } 
+                       echo $cd->cat_name;
+
                         $contador++;
-                        end($cd);
+                     
                     }   
                         
                     else{
                         $nameLink=strtolower($cd->cat_name);
                         $newName=str_replace(" ","-",$nameLink);       
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
-                   echo $cd->cat_name;
-                   if(end($cd)==0){
-                    echo "";
-                }else{
+                   if($cd->cat_parent){
                     echo ">";
                 }
+                   echo $cd->cat_name;
+              
                    $contador++;
-                   echo end($cd);
+                   
                     }
                    
                }?>
