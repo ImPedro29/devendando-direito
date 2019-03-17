@@ -39,8 +39,10 @@
                    echo $cd->cat_name.">";
                    $arrayCategory[]=$cd->cat_name;
                    $contador++;
+                   
                     }
               print_r($arrayCategory);
+              echo " o tamanho é:".$arrayCategory.length();
                }?>
                </a>
 
