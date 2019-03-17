@@ -41,7 +41,6 @@
                    $contador++;
                    
                     }
-              print_r($arrayCategory);
               echo " o tamanho é:".sizeof($cd);
                }?>
                </a>
