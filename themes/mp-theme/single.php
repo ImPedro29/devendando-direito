@@ -22,7 +22,7 @@
                     ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
                     echo $cd->cat_name;
 
-                    if($cd==end($cd)){
+                    if(end($cd)==0){
                         echo "";
                     }else{
                         echo ">";
@@ -35,7 +35,7 @@
                        ?><a href="https://desvendandodireito.com.br/category/significados/"><?php
                         echo $cd->cat_name;
                         $arrayCategory[]=$cd->cat_name;
-                        if($cd==end($cd)){
+                        if(end($cd)==0){
                             echo "";
                         }else{
                             echo ">";
@@ -47,7 +47,7 @@
                         $newName=str_replace(" ","-",$nameLink);       
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
                    echo $cd->cat_name;
-                   if($cd==end($cd)){
+                   if(end($cd)==0){
                     echo "";
                 }else{
                     echo ">";
