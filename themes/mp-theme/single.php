@@ -15,10 +15,10 @@
                             <?php
                             global $post;
                             $contador=0;
-                            $arrayCategory=[];
                $category_detail=get_the_category($post->ID);//$post->ID
                foreach($category_detail as $cd){
                    if($cd->cat_name=="Artigos"){
+
                     ?><a href="https://desvendandodireito.com.br/category/blog/"><?php
                     echo $cd->cat_name;
 
@@ -27,8 +27,7 @@
                     }else{
                         echo ">";
                     }
-                    $arrayCategory[]=$cd->cat_name;
-                    $contador++;
+$contador++;
                    }
                     else if($cd->cat_name=="Significado"){
                         
@@ -37,12 +36,14 @@
                         $arrayCategory[]=$cd->cat_name;
                         if(end($cd)==0){
                             echo "";
-                        }else{
+                        }
+                        else if($contador==0 || end($cd)!=0){
                             echo ">";
                         }
-                      
+                        $contador++;
+                    }   
                         
-                    }else{
+                    else{
                         $nameLink=strtolower($cd->cat_name);
                         $newName=str_replace(" ","-",$nameLink);       
                    ?><a href="<?php echo "/category/significados/".$newName?>"><?php
@@ -52,9 +53,7 @@
                 }else{
                     echo ">";
                 }
-                   $arrayCategory[]=$cd->cat_name;
                    $contador++;
-                   
                     }
                    
                }?>
