@@ -41,7 +41,7 @@
                    $contador++;
                    
                     }
-                    echo $cd->category_count;
+                    echo end($cd);
                }?>
                </a>
 
