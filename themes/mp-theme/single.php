@@ -28,6 +28,7 @@
                         echo ">";
                     }
 $contador++;
+end($cd);
                    }
                     else if($cd->cat_name=="Significado"){
                         
@@ -37,10 +38,11 @@ $contador++;
                         if(end($cd)==0){
                             echo "";
                         }
-                        else if($contador==0 || end($cd)!=0){
-                            echo ">";
+                        else{
+                            echo">";
                         }
                         $contador++;
+                        end($cd);
                     }   
                         
                     else{
@@ -54,6 +56,7 @@ $contador++;
                     echo ">";
                 }
                    $contador++;
+                   echo end($cd);
                     }
                    
                }?>
