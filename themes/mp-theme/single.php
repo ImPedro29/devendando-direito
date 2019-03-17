@@ -18,6 +18,7 @@
                $category_detail=get_the_category($post->ID);//$post->ID
                $contador=0;
                $array=[];
+            echo $category_detail[1]->cat_name;
                foreach($category_detail as $cd){
                    if($cd->cat_name=="Artigos"){
 
