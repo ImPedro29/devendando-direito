@@ -28,8 +28,8 @@
                         ?>
                         <a href="<?php the_permalink();?>">
                             <div class="posts">
-                                <div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div>
                                 <div class="conteudo">
+                                    <div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div>
                                     <h3><?php the_title(); ?></h3>
                                     <article>
                                         <?php the_excerpt(); ?>
