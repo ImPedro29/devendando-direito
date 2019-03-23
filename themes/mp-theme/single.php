@@ -82,7 +82,7 @@
                         <div class="description">
                             <div class="dtitle">Por <?php the_author(); ?></div>
                             <div class="texto">
-                                <?php $authorDesc = the_author_meta('description'); echo $authorDesc; ?>
+                                <p><?php $authorDesc = the_author_meta('description'); echo $authorDesc; ?></p>
                             </div>
                         </div>
                     </div>
