@@ -4,7 +4,7 @@
     <?php endif; ?>
     <script>
         let widget = document.querySelector(".widget");
-        if(widget.querySelector(".title").innerHTML === "[ATIVA]"){
+        if(widget.querySelector(".title").innerHTML === "[ATIVA]" || widget.querySelector(".title").innerHTML === "[ATIVO]"){
             widget.removeChild(widget.querySelector(".title"));
             widget.classList.add("propaganda");
             widget.classList.remove("widget");
