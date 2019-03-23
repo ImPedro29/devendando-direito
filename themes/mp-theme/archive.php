@@ -28,6 +28,7 @@
                         ?>
                         <a href="<?php the_permalink();?>">
                             <div class="topico cbox">
+
                                 <div class="conteudo">
                                     <div class="title"><?php the_title(); ?></div>
                                     <article>
