@@ -4,7 +4,6 @@
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/css/post.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,47 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="127">
+              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
+        <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="516" column="8" selection-start-line="516" selection-start-column="8" selection-end-line="516" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/allCategories.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+            <state relative-caret-position="297">
+              <caret line="288" column="22" lean-forward="true" selection-start-line="279" selection-start-column="16" selection-end-line="288" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -90,6 +62,7 @@
       <find>.aside</find>
       <find>author</find>
       <find>description</find>
+      <find>thumb</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: 'Lato', sans-serif;</replace>
@@ -129,8 +102,8 @@
         <option value="$PROJECT_DIR$/themes/mp-theme/style.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/single.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/404.php" />
-        <option value="$PROJECT_DIR$/themes/mp-theme/archive.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/post.css" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/archive.php" />
       </list>
     </option>
   </component>
@@ -225,21 +198,7 @@
       <workItem from="1552826688476" duration="3041000" />
       <workItem from="1552856702267" duration="6000" />
       <workItem from="1552954967415" duration="151000" />
-      <workItem from="1553341538113" duration="1171000" />
-    </task>
-    <task id="LOCAL-00016" summary="Arrumando categorias - slug">
-      <created>1551058176438</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1551058176438</updated>
-    </task>
-    <task id="LOCAL-00017" summary="as">
-      <created>1551058276358</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1551058276358</updated>
+      <workItem from="1553341538113" duration="1531000" />
     </task>
     <task id="LOCAL-00018" summary="asasas">
       <created>1551058320483</created>
@@ -570,11 +529,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552135541636</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Mudança do da fonte do author">
+      <created>1553343199975</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1553343199976</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Imagem na pagina de posts">
+      <created>1553343395625</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1553343395625</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56799000" />
+    <option name="totallyTimeSpent" value="57159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -606,8 +579,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Categorias Arrumando sidebar 03" />
-    <MESSAGE value="Categorias Arrumando sidebar 05" />
     <MESSAGE value="Categorias Arrumando sidebar 06" />
     <MESSAGE value="Arrumando widget espacamento e font do post" />
     <MESSAGE value="Arrumando widget p" />
@@ -631,7 +602,9 @@
     <MESSAGE value="Arrumando bugs" />
     <MESSAGE value="Adsense" />
     <MESSAGE value="Arrumando firefox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando firefox" />
+    <MESSAGE value="Mudança do da fonte do author" />
+    <MESSAGE value="Imagem na pagina de posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imagem na pagina de posts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -728,27 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="41" column="93" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -765,8 +717,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="68" column="14" lean-forward="true" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="58" column="14" lean-forward="true" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#script#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="288" column="22" lean-forward="true" selection-start-line="279" selection-start-column="16" selection-end-line="288" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>

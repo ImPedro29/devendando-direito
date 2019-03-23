@@ -27,13 +27,14 @@
                         $the_query->the_post();
                         ?>
                         <a href="<?php the_permalink();?>">
-                            <div class="topico cbox">
+                            <div class="posts">
                                 <div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div>
                                 <div class="conteudo">
-                                    <div class="title"><?php the_title(); ?></div>
+                                    <h3><?php the_title(); ?></h3>
                                     <article>
                                         <?php the_excerpt(); ?>
                                     </article>
+                                    <li><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
                                 </div>
                             </div>
                         </a>
