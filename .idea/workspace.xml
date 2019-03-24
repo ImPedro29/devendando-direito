@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/index.php" afterDir="false" />
+    <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="Arrumando alinhamento das imagens">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/css/post.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/css/post.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+            <state relative-caret-position="315">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#!!top" />
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            <state relative-caret-position="541">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -143,12 +143,12 @@
         <option value="$PROJECT_DIR$/themes/mp-theme/header.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/404.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/single.php" />
-        <option value="$PROJECT_DIR$/themes/mp-theme/css/post.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/sidebar.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/posts.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/style.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/index.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/archive.php" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/css/post.css" />
       </list>
     </option>
   </component>
@@ -243,28 +243,7 @@
       <workItem from="1552856702267" duration="6000" />
       <workItem from="1552954967415" duration="151000" />
       <workItem from="1553341538113" duration="6160000" />
-      <workItem from="1553444336595" duration="6253000" />
-    </task>
-    <task id="LOCAL-00042" summary="Arrumando paginacao">
-      <created>1552091590397</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1552091590397</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Arrumando paginacao">
-      <created>1552091858780</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1552091858780</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Arrumando paginacao">
-      <created>1552094130609</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1552094130609</updated>
+      <workItem from="1553444336595" duration="7879000" />
     </task>
     <task id="LOCAL-00045" summary="Arrumando paginacao">
       <created>1552094713602</created>
@@ -588,11 +567,32 @@
       <option name="project" value="LOCAL" />
       <updated>1553449905465</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Arrumando BLOG">
+      <created>1553450672927</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1553450672927</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Arrumando BLOG">
+      <created>1553450676002</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1553450676002</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Arrumando alinhamento das imagens">
+      <created>1553455763749</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1553455763749</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68041000" />
+    <option name="totallyTimeSpent" value="69667000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,8 +669,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrumando paginacao" />
-    <MESSAGE value="Estilo da paginacao" />
     <MESSAGE value="Arrumando paginacao mobile, arrumando bug nos significados" />
     <MESSAGE value="Arrumando paginacao outras paginas" />
     <MESSAGE value="Arrumando bug significados" />
@@ -694,7 +692,9 @@
     <MESSAGE value="Centralizando propaganda flutuante" />
     <MESSAGE value="Arrumando archive.php" />
     <MESSAGE value="Arrumando query wp_navi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando query wp_navi" />
+    <MESSAGE value="Arrumando BLOG" />
+    <MESSAGE value="Arrumando alinhamento das imagens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando alinhamento das imagens" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -791,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2490">
@@ -828,14 +821,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        <state relative-caret-position="315">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#!!top" />
             <element signature="e#7917#7922#0#PHP" />
             <element signature="e#8025#8030#0#PHP" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
     </entry>

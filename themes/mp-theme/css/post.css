@@ -30,10 +30,6 @@ article {
   text-align: left;
 }
 
-article h2{
-  font-weight: normal;
-}
-
 .conteudo .conteudo {
   min-height: 60px;
   margin-top: 50px;
@@ -64,21 +60,6 @@ article h2{
 
 .description .texto {
   padding: 0 10px;
-}
-
-article img{
-  max-width: 100%;
-  height: auto;
-}
-
-.aligncenter{
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-
-.alignright{
-  margin-left: 100%;
-  transform: translateX(-100%);
 }
 
 .textwidget p{
