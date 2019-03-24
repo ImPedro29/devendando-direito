@@ -28,7 +28,7 @@
                         ?>
                         <a href="<?php the_permalink();?>">
                             <div class="posts">
-                                <?php $thumb = get_the_post_thumbnail_url(); if(!isset($thumb)){ echo $thumb; ?><div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div> <?php } ?>
+                                <?php if(has_post_thumbnail(get_the_ID())){ ?><div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div> <?php } ?>
                                 <div class="conteudo">
                                     <h3><?php the_title(); ?></h3>
                                     <article>
