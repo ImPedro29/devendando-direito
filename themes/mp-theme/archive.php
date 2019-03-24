@@ -45,14 +45,8 @@
             </div>
                     <?php if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $the_query)); } ?>
         </div>
-           
-        
-        
-            </div>
-            
-            </div>
-            <?php get_sidebar(); ?>
-            </div>
+        <?php get_sidebar(); ?>
+    </div>
    
 <?php } else if (is_category()) { ?>
     <div class="principal">

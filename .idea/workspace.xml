@@ -16,9 +16,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            <state relative-caret-position="450">
+              <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
                 <element signature="n#div#2;n#div#0;n#div#1;n#!!top" />
                 <element signature="e#7917#7922#0#PHP" />
@@ -243,21 +244,7 @@
       <workItem from="1552856702267" duration="6000" />
       <workItem from="1552954967415" duration="151000" />
       <workItem from="1553341538113" duration="6160000" />
-      <workItem from="1553444336595" duration="9001000" />
-    </task>
-    <task id="LOCAL-00051" summary="Arrumando paginacao mobile, arrumando bug nos significados">
-      <created>1552097959613</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1552097959613</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Arrumando paginacao outras paginas">
-      <created>1552098271491</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1552098271491</updated>
+      <workItem from="1553444336595" duration="9230000" />
     </task>
     <task id="LOCAL-00053" summary="Arrumando paginacao outras paginas">
       <created>1552098376359</created>
@@ -588,11 +575,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553459258818</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Arrumando pagina do blog">
+      <created>1553459435343</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1553459435343</updated>
+    </task>
+    <task id="LOCAL-00101" summary="arrumando divs">
+      <created>1553459491597</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1553459491597</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70789000" />
+    <option name="totallyTimeSpent" value="71018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,8 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrumando bug significados" />
-    <MESSAGE value="Arrumando bug das outras categorias" />
     <MESSAGE value="Arrumando bug das outras categorias (linha)" />
     <MESSAGE value="Arrumando bug das outras categorias (bug da ultima pagina)" />
     <MESSAGE value="Arrumando bugs" />
@@ -694,7 +693,9 @@
     <MESSAGE value="Arrumando alinhamento das imagens" />
     <MESSAGE value="update post style" />
     <MESSAGE value="Arrumando article" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando article" />
+    <MESSAGE value="Arrumando pagina do blog" />
+    <MESSAGE value="arrumando divs" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrumando divs" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -829,9 +830,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        <state relative-caret-position="450">
+          <caret line="46" column="14" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" />
             <element signature="n#div#2;n#div#0;n#div#1;n#!!top" />
             <element signature="e#7917#7922#0#PHP" />
