@@ -490,6 +490,7 @@ header li a:hover {
     width: 100vw;
     left: 50%;
     transform: translateX(-50%);
+    display: block;
   }
 
   .widget:first-child {
