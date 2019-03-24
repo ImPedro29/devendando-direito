@@ -73,11 +73,14 @@ article img{
 
 .alignright{
   float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
 }
 
 .alignleft{
   float: left;
   margin-right: 15px;
+  margin-bottom: 15px;
 }
 
 .alignnone{
