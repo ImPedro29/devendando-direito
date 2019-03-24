@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+<link rel="stylesheet" type="text/css" href="css/post.css">
+
 
 <div class="principal">
     <div class="container">
