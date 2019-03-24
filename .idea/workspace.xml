@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/posts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="315">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -44,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
+            <state relative-caret-position="252">
               <caret line="84" column="65" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="544">
               <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
             </state>
           </provider>
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4380">
-              <caret line="292" column="9" selection-start-line="292" selection-end-line="292" selection-end-column="9" />
+            <state relative-caret-position="207">
+              <caret line="294" column="17" lean-forward="true" selection-start-line="294" selection-start-column="17" selection-end-line="294" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -71,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4365">
+            <state relative-caret-position="470">
               <caret line="291" column="26" lean-forward="true" selection-start-line="291" selection-start-column="26" selection-end-line="291" selection-end-column="26" />
             </state>
           </provider>
@@ -81,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lato</find>
       <find>atualiza</find>
       <find>flex</find>
       <find>atual</find>
@@ -111,6 +110,7 @@
       <find>title</find>
       <find>.conteudo</find>
       <find>.propag</find>
+      <find>proga</find>
     </findStrings>
     <replaceStrings>
       <replace>font-family: 'Lato', sans-serif;</replace>
@@ -246,21 +246,7 @@
       <workItem from="1552856702267" duration="6000" />
       <workItem from="1552954967415" duration="151000" />
       <workItem from="1553341538113" duration="6160000" />
-      <workItem from="1553444336595" duration="811000" />
-    </task>
-    <task id="LOCAL-00025" summary="Categorias Arrumando sidebar 01">
-      <created>1551097386202</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1551097386203</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Categorias Arrumando sidebar 03">
-      <created>1551097544218</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1551097544218</updated>
+      <workItem from="1553444336595" duration="1905000" />
     </task>
     <task id="LOCAL-00027" summary="Categorias Arrumando sidebar 03">
       <created>1551097616270</created>
@@ -591,11 +577,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553347647629</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Arrumando sidebar.php">
+      <created>1553445160286</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1553445160287</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Arrumando sidebar.php">
+      <created>1553445502814</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1553445502814</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62599000" />
+    <option name="totallyTimeSpent" value="63693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1437" height="1055" extended-state="4" />
@@ -627,7 +627,6 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrumando Comentarios" />
     <MESSAGE value="Arrumando propaganda" />
     <MESSAGE value="Arrumar comentarios e propagandas" />
     <MESSAGE value="Arrumando as coisa" />
@@ -652,7 +651,8 @@
     <MESSAGE value="Fix no author (fix)" />
     <MESSAGE value="Ajustes propaganda" />
     <MESSAGE value="Ajuste title" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste title" />
+    <MESSAGE value="Arrumando sidebar.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando sidebar.php" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/css/post.css" />
@@ -749,45 +749,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="65" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/post.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
+        <state relative-caret-position="544">
           <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4380">
-          <caret line="292" column="9" selection-start-line="292" selection-end-line="292" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="294" column="17" lean-forward="true" selection-start-line="294" selection-start-column="17" selection-end-line="294" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4365">
+        <state relative-caret-position="470">
           <caret line="291" column="26" lean-forward="true" selection-start-line="291" selection-start-column="26" selection-end-line="291" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/single.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="84" column="65" selection-start-line="84" selection-start-column="65" selection-end-line="84" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/posts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        <state relative-caret-position="315">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>

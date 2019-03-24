@@ -19,13 +19,7 @@
   margin-top: 20px;
 }
 
-.propaganda {
-  text-align: center;
-  width: 100%;
-  min-height: max-content;
-}
-
-.propaganda .title {
+#aswift_0_expand{
   display: none;
 }
 
@@ -225,14 +219,12 @@ fieldset {
     margin-top: 5px;
     margin-left: 0;
   }
-  .propaganda {
-    bottom: 0;
-    width: 100vw;
+  #aswift_0_expand{
+    display: initial;
     position: fixed;
-    height: auto;
-  }
-  .propaganda .title {
-    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
   }
   div .blog {
     padding: 10px;
