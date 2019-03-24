@@ -24,7 +24,7 @@
                         $the_query->the_post();
                         ?>
                         <a href="<?php the_permalink(); ?>">
-                            <div class="topico cbox">
+                            <div class="topico cbox posts">
                                 <?php if(has_post_thumbnail(get_the_ID())){?><div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div> <?php } ?>
                                 <div class="conteudo">
                                     <div class="title"><?php the_title(); ?></div>
