@@ -1,4 +1,4 @@
-<?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
+<?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; mb_internal_encoding("UTF-8");?>
 <?php get_header(); ?>
 <?php if (is_category('blog')) { ?>
     <div class="principal">
@@ -32,7 +32,7 @@
                                 <div class="conteudo">
                                     <h3><?php the_title(); ?></h3>
                                     <article>
-                                        <?php the_excerpt(); ?>
+                                        <?php echo mb_substr(get_the_excerpt(), 0, 200); if (strlen(get_the_excerpt()) > 200) echo "[...]"; ?>
                                     </article>
                                     <ul>
                                         <li style="float: left;"><?php the_date(); ?></li>
@@ -81,7 +81,6 @@
                             'posts_per_page' => 9,
                         ));
                         $cont = 0;
-                        mb_internal_encoding("UTF-8");
                         while ( $query->have_posts() ) : $query->the_post();?>
                             <?php if($cont == 0){  ?>
                                 <div class="box">

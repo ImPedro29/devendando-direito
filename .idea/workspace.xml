@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/mp-theme/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/search.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="87" column="167" selection-start-line="87" selection-start-column="82" selection-end-line="87" selection-end-column="167" />
+            <state>
+              <caret column="72" selection-start-column="72" selection-end-column="72" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -34,10 +35,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+            <state relative-caret-position="135">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
-                <marker date="1553461977147" expanded="true" signature="689:2190" ph="..." />
+                <marker date="1553462077690" expanded="true" signature="736:2240" ph="..." />
               </folding>
             </state>
           </provider>
@@ -258,21 +259,7 @@
       <workItem from="1552856702267" duration="6000" />
       <workItem from="1552954967415" duration="151000" />
       <workItem from="1553341538113" duration="6160000" />
-      <workItem from="1553444336595" duration="11531000" />
-    </task>
-    <task id="LOCAL-00063" summary="Arrumando firefox">
-      <created>1552135301063</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1552135301063</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Arrumando firefox">
-      <created>1552135541636</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1552135541636</updated>
+      <workItem from="1553444336595" duration="11631000" />
     </task>
     <task id="LOCAL-00065" summary="Mudança do da fonte do author">
       <created>1553343199975</created>
@@ -603,11 +590,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553461756354</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="Arrumando limite do exerpt">
+      <created>1553461988065</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1553461988065</updated>
+    </task>
+    <task id="LOCAL-00113" summary="Arrumando limite do exerpt 2">
+      <created>1553462015616</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1553462015616</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73319000" />
+    <option name="totallyTimeSpent" value="73419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -684,8 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Imagem na pagina de posts (fix)" />
-    <MESSAGE value="Fix no author (fix)" />
     <MESSAGE value="Ajustes propaganda" />
     <MESSAGE value="Ajuste title" />
     <MESSAGE value="Arrumando sidebar.php" />
@@ -709,7 +708,9 @@
     <MESSAGE value="Colocando imagem no search" />
     <MESSAGE value="Arrumando data publiacoes" />
     <MESSAGE value="Arrumando search e publicacaoes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando search e publicacaoes" />
+    <MESSAGE value="Arrumando limite do exerpt" />
+    <MESSAGE value="Arrumando limite do exerpt 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrumando limite do exerpt 2" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -834,8 +835,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="87" column="167" selection-start-line="87" selection-start-column="82" selection-end-line="87" selection-end-column="167" />
+        <state>
+          <caret column="72" selection-start-column="72" selection-end-column="72" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -850,10 +851,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
+        <state relative-caret-position="135">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
-            <marker date="1553461977147" expanded="true" signature="689:2190" ph="..." />
+            <marker date="1553462077690" expanded="true" signature="736:2240" ph="..." />
           </folding>
         </state>
       </provider>

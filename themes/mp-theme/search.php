@@ -13,6 +13,7 @@
         </div>
         <div class="topicos">
             <?php
+                mb_internal_encoding("UTF-8");
                 $s=get_search_query();
                 $args = array(
                     's' =>$s
