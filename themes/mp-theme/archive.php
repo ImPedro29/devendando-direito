@@ -34,8 +34,10 @@
                                     <article>
                                         <?php the_excerpt(); ?>
                                     </article>
-                                    <li><?php the_date(); ?></li>
-                                    <li><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
+                                    <ul>
+                                        <li><?php the_date(); ?></li>
+                                        <li><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </a>
