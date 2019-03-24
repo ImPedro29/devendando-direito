@@ -29,6 +29,12 @@ article {
   text-align: left;
 }
 
+article ul li{
+  list-style-type: initial;
+  margin: 1em;
+  margin-left: 2em;
+}
+
 .conteudo .conteudo {
   min-height: 60px;
   margin-top: 50px;
