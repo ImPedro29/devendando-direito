@@ -42,8 +42,9 @@
                     }
                 }?>
                     </div>
-                    <?php if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $the_query)); } ?>
             </div>
+                    <?php if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $the_query)); } ?>
+        </div>
            
         
         
