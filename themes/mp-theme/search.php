@@ -28,10 +28,14 @@
                             <div class="topico cbox posts">
                                 <?php if(has_post_thumbnail(get_the_ID())){?><div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div> <?php } ?>
                                 <div class="conteudo">
-                                    <div class="title"><?php the_title(); ?></div>
+                                    <h3><?php the_title(); ?></h3>
                                     <article>
-                                        <?php echo mb_substr(get_the_excerpt(), 0, 220); if (strlen(get_the_excerpt()) > 220) echo "..."; ?>
+                                        <?php echo mb_substr(get_the_excerpt(), 0, 220); if (strlen(get_the_excerpt()) > 220) echo "[...]"; ?>
                                     </article>
+                                    <ul>
+                                        <li style="float: left;"><?php the_date(); ?></li>
+                                        <li style="float: right;"><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
+                                    </ul>
                                 </div>
                             </div>
                         </a>
