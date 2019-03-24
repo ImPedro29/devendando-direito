@@ -489,9 +489,8 @@ header li a:hover {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    left: 50%;
-    transform: translateX(-50%);
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 
   .widget:first-child {
