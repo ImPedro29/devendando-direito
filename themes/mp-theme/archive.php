@@ -28,7 +28,7 @@
                         ?>
                         <a href="<?php the_permalink();?>">
                             <div class="posts">
-                                <?php if(has_post_thumbnail(get_the_ID())){ ?><div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div> <?php } ?>
+                                <?php if(has_post_thumbnail(get_the_ID())){ echo 'aa';?><div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div> <?php } ?>
                                 <div class="conteudo">
                                     <h3><?php the_title(); ?></h3>
                                     <article>
