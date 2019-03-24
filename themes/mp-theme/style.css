@@ -17,6 +17,9 @@ a {
   text-decoration: none;
 }
 
+.fixedAdsense{
+  display: none;
+}
 
 .path{
   font-size:1rem;
@@ -479,6 +482,14 @@ header li a:hover {
     flex-direction: column;
     margin: auto;
     display: block !important;
+  }
+
+  .fixedAdsense{
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .widget:first-child {
