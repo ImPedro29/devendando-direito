@@ -288,7 +288,6 @@
                     </div>
                 </div>
             <?php endwhile?>
-
             <?php else: ?>
                 <div class="posts">
                     <div class="img"><img src="img/lady.jpg" alt="direito" /></div>

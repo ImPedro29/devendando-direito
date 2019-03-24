@@ -12,9 +12,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="categorias">
-                        <div class="coluna-1">
-                            <div class="topico">
+                <div class="blog cbox">
+                    <div class="title">Blog</div>
                             <?php
               $the_query = new WP_Query(  array(
                 'post_type' => 'post',
@@ -44,7 +43,6 @@
                 }?>
                     </div>
                     <?php if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $the_query)); } ?>
-                </div>
             </div>
            
         
