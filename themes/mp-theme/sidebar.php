@@ -7,6 +7,8 @@
         if(widget.querySelector(".title").innerHTML === "[ATIVA]" || widget.querySelector(".title").innerHTML === "[ATIVO]"){
             widget.removeChild(widget.querySelector(".title"));
             widget.classList.add("propaganda");
+            let adsensecode = widget.querySelector("p").innerHTML;
+            widget.innerHTML = adsensecode;
             widget.classList.remove("widget");
         }
     </script>

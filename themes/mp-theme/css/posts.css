@@ -1,7 +1,3 @@
-.propaganda-mobile {
-  display: none;
-}
-
 .inicio {
   font-size: 0.9em;
   color: #2e2e2e;
@@ -24,25 +20,13 @@
 }
 
 .propaganda {
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
-  background: #fff;
-  border-radius: 5px;
   width: 100%;
   min-height: max-content;
 }
 
 .propaganda .title {
-  padding: 10px;
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 10px;
-  margin-right: 20px;
-  font-size: 20px;
-  font-weight: 200;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  color: #2d2d2d;
+  display: none;
 }
 
 .conteudo .conteudo {
@@ -100,7 +84,7 @@
   padding-bottom: 4px;
   text-transform: uppercase;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 200;
 }
 
 .post {
