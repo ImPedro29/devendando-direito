@@ -26,7 +26,6 @@
 
 article {
   margin-top: 20px;
-  font-size: initial;
   text-align: left;
 }
 
@@ -78,6 +77,7 @@ article img{
 
 .alignleft{
   float: left;
+  margin-right: 15px;
 }
 
 .alignnone{
