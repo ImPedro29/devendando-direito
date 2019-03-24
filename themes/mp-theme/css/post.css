@@ -57,12 +57,28 @@ article h2{
 }
 
 .description {
+  font-size: 14px;
   font-weight: normal;
-  font-family: "Lato Regular", Arial;
+  font-family: Cambria, Georgia, serif;
 }
 
 .description .texto {
   padding: 0 10px;
+}
+
+article img{
+  max-width: 100%;
+  height: auto;
+}
+
+.aligncenter{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alignright{
+  margin-left: 100%;
+  transform: translateX(-100%);
 }
 
 .textwidget p{
