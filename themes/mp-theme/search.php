@@ -29,7 +29,7 @@
                                 <div class="conteudo">
                                     <div class="title"><?php the_title(); ?></div>
                                     <article>
-                                        <?php echo mb_substr(get_the_excerpt(), 0, 200); if (strlen(get_the_excerpt()) > 16) echo "..."; ?>
+                                        <?php echo mb_substr(get_the_excerpt(), 0, 200); if (strlen(get_the_excerpt()) > 200) echo "[...]"; ?>
                                     </article>
                                 </div>
                             </div>
