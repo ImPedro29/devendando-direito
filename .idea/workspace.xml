@@ -4,7 +4,7 @@
     <list default="true" id="0df8f30f-2eb5-4275-9227-d90126dee715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/mp-theme/archive.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/archive.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/mp-theme/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/search.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/mp-theme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/themes/mp-theme/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="72" selection-start-column="72" selection-end-column="72" />
+            <state relative-caret-position="315">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="142" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -32,13 +32,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/search.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="46" />
               <folding>
-                <marker date="1553462077690" expanded="true" signature="736:2240" ph="..." />
+                <marker date="1553462137288" expanded="true" signature="736:2238" ph="..." />
               </folding>
             </state>
           </provider>
@@ -80,11 +80,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="279" selection-start-line="279" selection-end-line="288" selection-end-column="22" />
+            <state relative-caret-position="407">
+              <caret line="285" column="130" selection-start-line="285" selection-start-column="130" selection-end-line="285" selection-end-column="130" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,10 +165,10 @@
         <option value="$PROJECT_DIR$/themes/mp-theme/sidebar.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/posts.css" />
         <option value="$PROJECT_DIR$/themes/mp-theme/style.css" />
-        <option value="$PROJECT_DIR$/themes/mp-theme/index.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/css/post.css" />
-        <option value="$PROJECT_DIR$/themes/mp-theme/archive.php" />
         <option value="$PROJECT_DIR$/themes/mp-theme/search.php" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/archive.php" />
+        <option value="$PROJECT_DIR$/themes/mp-theme/index.php" />
       </list>
     </option>
   </component>
@@ -259,21 +263,7 @@
       <workItem from="1552856702267" duration="6000" />
       <workItem from="1552954967415" duration="151000" />
       <workItem from="1553341538113" duration="6160000" />
-      <workItem from="1553444336595" duration="11631000" />
-    </task>
-    <task id="LOCAL-00065" summary="Mudança do da fonte do author">
-      <created>1553343199975</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1553343199976</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Imagem na pagina de posts">
-      <created>1553343395625</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1553343395625</updated>
+      <workItem from="1553444336595" duration="11775000" />
     </task>
     <task id="LOCAL-00067" summary="Imagem na pagina de posts (fix)">
       <created>1553343542663</created>
@@ -604,11 +594,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553462015616</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="fix exerpt">
+      <created>1553462089025</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1553462089025</updated>
+    </task>
+    <task id="LOCAL-00115" summary="fix exerpt">
+      <created>1553462142593</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1553462142593</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73419000" />
+    <option name="totallyTimeSpent" value="73563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -685,7 +689,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ajustes propaganda" />
     <MESSAGE value="Ajuste title" />
     <MESSAGE value="Arrumando sidebar.php" />
     <MESSAGE value="Arrumando sidebar.php css" />
@@ -710,7 +713,8 @@
     <MESSAGE value="Arrumando search e publicacaoes" />
     <MESSAGE value="Arrumando limite do exerpt" />
     <MESSAGE value="Arrumando limite do exerpt 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arrumando limite do exerpt 2" />
+    <MESSAGE value="fix exerpt" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix exerpt" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
@@ -812,20 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="279" selection-start-line="279" selection-end-line="288" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/css/posts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -833,10 +823,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/archive.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="72" selection-start-column="72" selection-end-column="72" />
+        <state relative-caret-position="315">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="142" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
             <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -852,9 +849,20 @@
     <entry file="file://$PROJECT_DIR$/themes/mp-theme/search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="46" />
           <folding>
-            <marker date="1553462077690" expanded="true" signature="736:2240" ph="..." />
+            <marker date="1553462137288" expanded="true" signature="736:2238" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/mp-theme/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="285" column="130" selection-start-line="285" selection-start-column="130" selection-end-line="285" selection-end-column="130" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -274,6 +274,7 @@
             <?php
             wp_reset_query();
             global $wp_query;
+            mb_internal_encoding("UTF-8");
             $args = array_merge( $wp_query->query_vars, ['posts_per_page' => 3, 'category_name' => 'blog' ] );
             query_posts( $args );
             if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -282,9 +283,12 @@
                     <div class="conteudo">
                         <h3><?php the_title(); ?></h3>
                         <article>
-                            <?php the_excerpt(); ?>
+                            <?php echo mb_substr(get_the_excerpt(), 0, 220); if (strlen(get_the_excerpt()) > 220) echo "[...]"; ?>
                         </article>
-                        <li><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
+                        <ul>
+                            <li style="float: left;"><?php the_date(); ?></li>
+                            <li style="float: right;"><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
+                        </ul>
                     </div>
                 </div>
             <?php endwhile?>
