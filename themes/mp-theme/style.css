@@ -150,6 +150,7 @@ button {
   display: flex;
   align-items: center;
   margin-top: 5px;
+  font-weight: normal;
 }
 
 .inicio li a {
