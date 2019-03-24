@@ -1,3 +1,4 @@
+<?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
 <?php get_header(); ?>
 <?php if (is_category('blog')) { ?>
     <div class="principal">
@@ -18,7 +19,7 @@
               $the_query = new WP_Query(  array(
                 'post_type' => 'post',
                 'category_name' => 'blog',
-                
+                'paged' => $paged,
             ) );
                 // The Query
              
@@ -41,8 +42,8 @@
                         <?php
                     }
                 }?>
-                               
-                            </div> 
+                    </div>
+                    <?php if(function_exists('wp_pagenavi')) { wp_pagenavi( array( 'query' => $query)); } ?>
                 </div>
             </div>
            
@@ -55,7 +56,6 @@
             </div>
    
 <?php } else if (is_category()) { ?>
-    <?php $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1; ?>
     <div class="principal">
         <div class="container">
             <div class="cbox">
@@ -68,7 +68,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="topicos">
                 <div class="topico cbox">
                     <div class="title"><?php single_cat_title(); ?> - Posts recentes</div>
@@ -84,7 +83,7 @@
                             'post_type' => 'post',
                             'category_name' => $categoryName,
                             'posts_per_page' => 9,
-                        ) );
+                        ));
                         $cont = 0;
                         mb_internal_encoding("UTF-8");
                         while ( $query->have_posts() ) : $query->the_post();?>
