@@ -226,12 +226,10 @@ fieldset {
     margin-left: 0;
   }
   .propaganda {
-    position: absolute;
     bottom: 0;
-    min-height: max-content;
     width: 100vw;
     position: fixed;
-    margin-bottom: 2px;
+    height: auto;
   }
   .propaganda .title {
     display: none;

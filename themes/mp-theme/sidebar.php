@@ -10,6 +10,8 @@
             let adsensecode = widget.querySelector("p").innerHTML;
             widget.innerHTML = adsensecode;
             widget.classList.remove("widget");
+            document.getElementById("aside").removeChild(widget);
+            document.body.appendChild(widget);
         }
     </script>
 </div>
