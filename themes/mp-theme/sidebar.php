@@ -8,7 +8,7 @@
             let adsensecode = widget.querySelector("p").innerHTML;
             document.getElementById("aside").removeChild(widget);
             let div = document.createElement("div");
-            div.appendChild(adsensecode);
+            div.innerHTML = adsensecode;
             div.classList.add("fixedAdsense");
             document.body.appendChild(div);
         }
