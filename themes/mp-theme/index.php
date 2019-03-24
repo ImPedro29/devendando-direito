@@ -278,19 +278,21 @@
             $args = array_merge( $wp_query->query_vars, ['posts_per_page' => 3, 'category_name' => 'blog' ] );
             query_posts( $args );
             if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-                <div class="posts">
-                    <div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div>
-                    <div class="conteudo">
-                        <h3><?php the_title(); ?></h3>
-                        <article>
-                            <?php echo mb_substr(get_the_excerpt(), 0, 220); if (strlen(get_the_excerpt()) > 220) echo "[...]"; ?>
-                        </article>
-                        <ul>
-                            <li style="float: left;"><?php the_date(); ?></li>
-                            <li style="float: right;"><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
-                        </ul>
+                <a href="<?php the_permalink();?>">
+                    <div class="posts">
+                        <?php if(has_post_thumbnail(get_the_ID())){?><div class="img"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" alt="" /></div> <?php } ?>
+                        <div class="conteudo">
+                            <h3><?php the_title(); ?></h3>
+                            <article>
+                                <?php echo mb_substr(get_the_excerpt(), 0, 220); if (strlen(get_the_excerpt()) > 220) echo "[...]"; ?>
+                            </article>
+                            <ul>
+                                <li style="float: left;"><?php the_date(); ?></li>
+                                <li style="float: right;"><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                </a>
             <?php endwhile?>
             <?php else: ?>
                 <div class="posts">
