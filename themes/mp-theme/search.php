@@ -11,7 +11,7 @@
                 </div>
             </div>
         </div>
-        <div class="topicos">
+        <div class="blog topicos">
             <?php
                 mb_internal_encoding("UTF-8");
                 $s=get_search_query();
@@ -34,7 +34,7 @@
                                     </article>
                                     <ul>
                                         <li style="float: left;"><?php the_date(); ?></li>
-                                        <li style="float: right;"><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
+                                        <li style="float: right; color: #f07c00;"><a href="<?php the_permalink(); ?>">continuar lendo...</a></li>
                                     </ul>
                                 </div>
                             </div>
