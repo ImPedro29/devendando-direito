@@ -19,7 +19,7 @@
   margin-top: 20px;
 }
 
-.adsbygoogle .adsbygoogle-noablate{
+ins{
   display: none;
 }
 
@@ -219,7 +219,7 @@ fieldset {
     margin-top: 5px;
     margin-left: 0;
   }
-  .adsbygoogle .adsbygoogle-noablate{
+  ins{
     display: initial;
     position: fixed;
     left: 50%;
