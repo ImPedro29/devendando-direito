@@ -62,6 +62,28 @@ article {
   padding: 0 10px;
 }
 
+article img{
+  max-width: 100%;
+  height: auto;
+}
+
+.aligncenter{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.alignright{
+  float: right;
+}
+
+.alignleft{
+  float: left;
+}
+
+.alignnone{
+  float: none;
+}
+
 .textwidget p{
   margin: 0 !important;
 }
